@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="H2 - Sell It" uuid="73a094ff-2b98-4264-8dfb-c8c472fd607b">
+    <database-info product="H2" version="1.3.175 (2014-01-18)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.175 (2014-01-18)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="SELLIT"/>
+  </data-source>
+</component>
