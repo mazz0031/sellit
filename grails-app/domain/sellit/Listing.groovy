@@ -16,7 +16,7 @@ class Listing {
         description blank: false
         startDate blank: false, min: new Date()
         listingDays blank: false, min: 3, max: 10
-        startingPrice blank: false, scale: 2,  min: 0
+        startingPrice blank: false, scale: 2,  min: 0.0F
         deliverOption blank: false, inList: ["US Only", "Worldwide", "Pick Up Only"]
         sellerAccount blank: false
     }
