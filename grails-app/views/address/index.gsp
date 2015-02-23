@@ -24,15 +24,15 @@
 			<thead>
 					<tr>
 					
-						<g:sortableColumn property="addressLine1" title="${message(code: 'address.addressLine1.label', default: 'Address Line1')}" />
+						<g:sortableColumn property="addressLine1" title="${message(code: 'address.addressLine1.label', default: 'Address Line 1')}" />
+
+                        <g:sortableColumn property="addressLine2" title="${message(code: 'address.addressLine2.label', default: 'Address Line 2')}" />
 					
 						<g:sortableColumn property="city" title="${message(code: 'address.city.label', default: 'City')}" />
 					
-						<g:sortableColumn property="stateAbbr" title="${message(code: 'address.stateAbbr.label', default: 'State Abbr')}" />
+						<g:sortableColumn property="stateAbbr" title="${message(code: 'address.stateAbbr.label', default: 'State')}" />
 					
 						<g:sortableColumn property="postalCode" title="${message(code: 'address.postalCode.label', default: 'Postal Code')}" />
-					
-						<g:sortableColumn property="addressLine2" title="${message(code: 'address.addressLine2.label', default: 'Address Line2')}" />
 					
 						<g:sortableColumn property="country" title="${message(code: 'address.country.label', default: 'Country')}" />
 					

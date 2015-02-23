@@ -66,7 +66,7 @@ class AccountController {
 
         request.withFormat {
             form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'Account.label', default: 'Account'), accountInstance.id])
+                flash.message = message(code: 'default.updated.message', args: [message(code: 'account.label', default: 'Account'), accountInstance.id])
                 redirect accountInstance
             }
             '*'{ respond accountInstance, [status: OK] }
@@ -100,5 +100,9 @@ class AccountController {
             }
             '*'{ render status: NOT_FOUND }
         }
+    }
+
+    boolean validatePassword(String pass) {
+        return (pass) && (pass =~ /\p{Alpha}/) && (pass =~ /\p{Digit}/)
     }
 }

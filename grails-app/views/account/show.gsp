@@ -49,16 +49,34 @@
 					
 				</li>
 				</g:if>
-			
+
 				<g:if test="${accountInstance?.address}">
-				<li class="fieldcontain">
-					<span id="address-label" class="property-label"><g:message code="account.address.label" default="Address" /></span>
-					
-						<span class="property-value" aria-labelledby="address-label"><g:link controller="address" action="show" id="${accountInstance?.address?.id}">${accountInstance?.address?.encodeAsHTML()}</g:link></span>
-					
-				</li>
-				</g:if>
-			
+                <li class="fieldcontain">
+                    <span id="address-label" class="property-label"><g:message code="account.address.label" default="Address" /></span>
+
+                    <span class="property-value" aria-labelledby="address-label"><g:link controller="address" action="show" id="${accountInstance?.address?.id}">${accountInstance?.address?.addressLine1}</g:link></span>
+
+                </li>
+                </g:if>
+
+                <g:if test="${accountInstance?.dateCreated}">
+                    <li class="fieldcontain">
+                        <span id="dateCreated-label" class="property-label"><g:message code="account.email.dateCreated" default="Date Created" /></span>
+
+                        <span class="property-value" aria-labelledby="dateCreated-label"><g:fieldValue bean="${accountInstance}" field="dateCreated"/></span>
+
+                    </li>
+                </g:if>
+
+                <g:if test="${accountInstance?.lastUpdated}">
+                    <li class="fieldcontain">
+                        <span id="lastUpdated-label" class="property-label"><g:message code="account.email.lastUpdated" default="Last Updated" /></span>
+
+                        <span class="property-value" aria-labelledby="lastUpdated-label"><g:fieldValue bean="${accountInstance}" field="lastUpdated"/></span>
+
+                    </li>
+                </g:if>
+
 			</ol>
 			<g:form url="[resource:accountInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">

@@ -34,7 +34,24 @@
 		<g:message code="account.address.label" default="Address" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="address" name="address.id" from="${sellit.Address.list()}" optionKey="id" required="" value="${accountInstance?.address?.id}" class="many-to-one"/>
+	<g:select id="address.id" name="address.id" from="${sellit.Address.list()}" optionKey="id" optionValue="addressLine1" required="" value="${accountInstance?.address?.id}" class="many-to-one"/>
 
 </div>
+
+<div class="fieldcontain ${hasErrors(bean: accountInstance, field: 'dateCreated', 'error')} required">
+    <label for="dateCreated">
+        <g:message code="account.dateCreated.label" default="Date Created&emsp;" />
+    </label>
+    <g:field type="text" readonly="" name="dateCreated" value="${accountInstance?.dateCreated}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: accountInstance, field: 'lastUpdated', 'error')} required">
+    <label for="lastUpdated">
+        <g:message code="account.lastUpdated.label" default="Last Updated&emsp;" />
+    </label>
+    <g:field type="text" readonly="" name="lastUpdated" value="${accountInstance?.lastUpdated}"/>
+
+</div>
+
 
