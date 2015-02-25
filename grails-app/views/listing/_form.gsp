@@ -61,7 +61,7 @@
 		<g:message code="listing.sellerAccount.label" default="Seller Account" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="sellerAccount" name="sellerAccount.id" from="${sellit.Account.list()}" optionKey="id" required="" value="${listingInstance?.sellerAccount?.id}" class="many-to-one"/>
+	<g:select id="sellerAccount" name="sellerAccount.id" from="${sellit.Account.list()}" optionKey="id" optionValue="name" required="" value="${listingInstance?.sellerAccount?.id}" class="many-to-one"/>
 
 </div>
 

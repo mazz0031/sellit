@@ -81,7 +81,7 @@
 				<li class="fieldcontain">
 					<span id="sellerAccount-label" class="property-label"><g:message code="listing.sellerAccount.label" default="Seller Account" /></span>
 					
-						<span class="property-value" aria-labelledby="sellerAccount-label"><g:link controller="account" action="show" id="${listingInstance?.sellerAccount?.id}">${listingInstance?.sellerAccount?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="sellerAccount-label"><g:link controller="account" action="show" id="${listingInstance?.sellerAccount?.id}">${listingInstance?.sellerAccount?.name}</g:link></span>
 					
 				</li>
 				</g:if>
@@ -91,6 +91,7 @@
 				<fieldset class="buttons">
 					<g:link class="edit" action="edit" resource="${listingInstance}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
 					<g:actionSubmit class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+
 				</fieldset>
 			</g:form>
 		</div>

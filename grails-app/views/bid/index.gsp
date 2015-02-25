@@ -37,10 +37,10 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${bidInstance.id}">${fieldValue(bean: bidInstance, field: "bidAmount")}</g:link></td>
+
+						<td>${fieldValue(bean: bidInstance, field: "biddingAccount.name")}</td>
 					
-						<td>${fieldValue(bean: bidInstance, field: "biddingAccount")}</td>
-					
-						<td>${fieldValue(bean: bidInstance, field: "listedItem")}</td>
+						<td>${fieldValue(bean: bidInstance, field: "listedItem.name")}</td>
 					
 					</tr>
 				</g:each>

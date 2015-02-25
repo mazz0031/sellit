@@ -44,7 +44,7 @@
 					
 						<td>${fieldValue(bean: accountInstance, field: "password")}</td>
 					
-						<td>${fieldValue(bean: accountInstance, field: "address")}</td>
+						<td>${fieldValue(bean: accountInstance, field: "address.addressLine1")}</td>
 					
 					</tr>
 				</g:each>

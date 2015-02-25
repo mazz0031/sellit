@@ -36,7 +36,7 @@
 				<li class="fieldcontain">
 					<span id="biddingAccount-label" class="property-label"><g:message code="bid.biddingAccount.label" default="Bidding Account" /></span>
 					
-						<span class="property-value" aria-labelledby="biddingAccount-label"><g:link controller="account" action="show" id="${bidInstance?.biddingAccount?.id}">${bidInstance?.biddingAccount?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="biddingAccount-label"><g:link controller="account" action="show" id="${bidInstance?.biddingAccount?.id}">${bidInstance?.biddingAccount?.name}</g:link></span>
 					
 				</li>
 				</g:if>
@@ -45,18 +45,12 @@
 				<li class="fieldcontain">
 					<span id="listedItem-label" class="property-label"><g:message code="bid.listedItem.label" default="Listed Item" /></span>
 					
-						<span class="property-value" aria-labelledby="listedItem-label"><g:link controller="listing" action="show" id="${bidInstance?.listedItem?.id}">${bidInstance?.listedItem?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="listedItem-label"><g:link controller="listing" action="show" id="${bidInstance?.listedItem?.id}">${bidInstance?.listedItem?.name}</g:link></span>
 					
 				</li>
 				</g:if>
 			
 			</ol>
-			<g:form url="[resource:bidInstance, action:'delete']" method="DELETE">
-				<fieldset class="buttons">
-					<g:link class="edit" action="edit" resource="${bidInstance}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
-					<g:actionSubmit class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
-				</fieldset>
-			</g:form>
 		</div>
 	</body>
 </html>

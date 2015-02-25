@@ -8,7 +8,7 @@ import grails.transaction.Transactional
 @Transactional(readOnly = true)
 class BidController {
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    static allowedMethods = [save: "POST"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -28,6 +28,10 @@ class BidController {
         if (bidInstance == null) {
             notFound()
             return
+        }
+
+        if (!bidIsValid(bidInstance)) {
+            //ToDo: add error to bidInstance.Errors that bid must be $.50 greater than highest bid
         }
 
         if (bidInstance.hasErrors()) {
@@ -50,48 +54,6 @@ class BidController {
         respond bidInstance
     }
 
-    @Transactional
-    def update(Bid bidInstance) {
-        if (bidInstance == null) {
-            notFound()
-            return
-        }
-
-        if (bidInstance.hasErrors()) {
-            respond bidInstance.errors, view:'edit'
-            return
-        }
-
-        bidInstance.save flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'Bid.label', default: 'Bid'), bidInstance.id])
-                redirect bidInstance
-            }
-            '*'{ respond bidInstance, [status: OK] }
-        }
-    }
-
-    @Transactional
-    def delete(Bid bidInstance) {
-
-        if (bidInstance == null) {
-            notFound()
-            return
-        }
-
-        bidInstance.delete flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'Bid.label', default: 'Bid'), bidInstance.id])
-                redirect action:"index", method:"GET"
-            }
-            '*'{ render status: NO_CONTENT }
-        }
-    }
-
     protected void notFound() {
         request.withFormat {
             form multipartForm {
@@ -100,5 +62,11 @@ class BidController {
             }
             '*'{ render status: NOT_FOUND }
         }
+    }
+
+    protected boolean bidIsValid(Bid bid) {
+        //ToDo: get existing bids, determine of there are any and if so then the highest amount
+        //ToDo: if ((noBids && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount > highBid + .50)) return true else return false
+        return true;
     }
 }

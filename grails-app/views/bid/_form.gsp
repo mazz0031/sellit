@@ -16,7 +16,7 @@
 		<g:message code="bid.biddingAccount.label" default="Bidding Account" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="biddingAccount" name="biddingAccount.id" from="${sellit.Account.list()}" optionKey="id" required="" value="${bidInstance?.biddingAccount?.id}" class="many-to-one"/>
+	<g:select id="biddingAccount" name="biddingAccount.id" from="${sellit.Account.list()}" optionKey="id" optionValue="name" required="" value="${bidInstance?.biddingAccount?.id}" class="many-to-one"/>
 
 </div>
 
@@ -25,7 +25,7 @@
 		<g:message code="bid.listedItem.label" default="Listed Item" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="listedItem" name="listedItem.id" from="${sellit.Listing.list()}" optionKey="id" required="" value="${bidInstance?.listedItem?.id}" class="many-to-one"/>
+	<g:select id="listedItem" name="listedItem.id" from="${sellit.Listing.list()}" optionKey="id" optionValue="name" required="" value="${bidInstance?.listedItem?.id}" class="many-to-one"/>
 
 </div>
 
