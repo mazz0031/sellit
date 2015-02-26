@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25aad472-7727-4d36-a7c3-c3e2861dab1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/sellit/ReviewControllerSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/sellit/ReviewControllerSpec.groovy" />
-    </list>
+    <list default="true" id="25aad472-7727-4d36-a7c3-c3e2861dab1c" name="Default" comment="" />
     <ignored path="sellit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,48 +46,18 @@
       <file leaf-file-name="AddressControllerSpec.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/sellit/AddressControllerSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.130435" vertical-offset="0" max-vertical-offset="2703">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="187" max-vertical-offset="2703">
               <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountControllerSpec.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccountControllerSpec.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/sellit/AccountControllerSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.869565" vertical-offset="0" max-vertical-offset="2720">
+            <state vertical-scroll-proportion="0.20379621" vertical-offset="0" max-vertical-offset="2720">
               <caret line="13" column="121" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListingControllerSpec.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/sellit/ListingControllerSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-95.347824" vertical-offset="0" max-vertical-offset="2805">
-              <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BidControllerSpec.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/sellit/BidControllerSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.608696" vertical-offset="0" max-vertical-offset="1462">
-              <caret line="14" column="115" selection-start-line="13" selection-start-column="8" selection-end-line="15" selection-end-column="221" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReviewControllerSpec.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/unit/sellit/ReviewControllerSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8380282" vertical-offset="0" max-vertical-offset="1496">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,6 +141,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,7 +337,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -787,11 +755,12 @@
       <workItem from="1424640718408" duration="11334000" />
       <workItem from="1424823986523" duration="5433000" />
       <workItem from="1424903280384" duration="10350000" />
+      <workItem from="1424918913701" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40814000" />
+    <option name="totallyTimeSpent" value="40849000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -830,13 +799,11 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26425856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889733" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -849,8 +816,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26425856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -884,11 +853,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/unit/sellit/ListingControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2805">
+          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/sellit/BidControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1462">
+          <caret line="14" column="115" selection-start-line="13" selection-start-column="8" selection-end-line="15" selection-end-column="221" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/sellit/ReviewControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Address.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="510">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,20 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/AccountSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.826087" vertical-offset="0" max-vertical-offset="442">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/BidSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20763358" vertical-offset="0" max-vertical-offset="655">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1002,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4878049" vertical-offset="0" max-vertical-offset="748">
           <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4390244" vertical-offset="51" max-vertical-offset="799">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7353801" vertical-offset="109" max-vertical-offset="1071">
           <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="121" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.591837" vertical-offset="678" max-vertical-offset="1615">
           <caret line="56" column="201" selection-start-line="56" selection-start-column="201" selection-end-line="56" selection-end-column="201" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.632653" vertical-offset="370" max-vertical-offset="1054">
           <caret line="38" column="210" selection-start-line="38" selection-start-column="210" selection-end-line="38" selection-end-column="210" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.755102" vertical-offset="0" max-vertical-offset="629">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7704678" vertical-offset="306" max-vertical-offset="1020">
           <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5277778" vertical-offset="1254" max-vertical-offset="1938">
           <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8260234" vertical-offset="574" max-vertical-offset="1258">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80487806" vertical-offset="323" max-vertical-offset="1224">
           <caret line="52" column="90" selection-start-line="52" selection-start-column="90" selection-end-line="52" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04906205" vertical-offset="0" max-vertical-offset="693">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -1153,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72883785" vertical-offset="274" max-vertical-offset="1088">
           <caret line="46" column="92" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68292683" vertical-offset="0" max-vertical-offset="1156">
           <caret line="28" column="109" selection-start-line="28" selection-start-column="109" selection-end-line="28" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7763158" vertical-offset="676" max-vertical-offset="1360">
           <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2236842" vertical-offset="0" max-vertical-offset="935">
           <caret line="9" column="115" selection-start-line="9" selection-start-column="115" selection-end-line="9" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,15 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.86327076" vertical-offset="87" max-vertical-offset="884">
           <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/AddressSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.043478" vertical-offset="0" max-vertical-offset="425">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04906205" vertical-offset="0" max-vertical-offset="693">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -1228,35 +1176,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.056604" vertical-offset="0" max-vertical-offset="544">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/AddressControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.130435" vertical-offset="0" max-vertical-offset="2703">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/AccountControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.869565" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="13" column="121" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/ListingControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-95.347824" vertical-offset="0" max-vertical-offset="2805">
-          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy">
@@ -1267,19 +1190,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/BidControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.608696" vertical-offset="0" max-vertical-offset="1462">
-          <caret line="14" column="115" selection-start-line="13" selection-start-column="8" selection-end-line="15" selection-end-column="221" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Bid.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24531025" vertical-offset="0" max-vertical-offset="693">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -1290,7 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1962482" vertical-offset="0" max-vertical-offset="693">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -1299,8 +1212,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/sellit/ReviewControllerSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8380282" vertical-offset="0" max-vertical-offset="1496">
+        <state vertical-scroll-proportion="0.10121457" vertical-offset="495" max-vertical-offset="1496">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/sellit/BidControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36133602" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/sellit/ListingControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38861138" vertical-offset="1804" max-vertical-offset="2805">
+          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/sellit/AddressControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="187" max-vertical-offset="2703">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/sellit/AccountControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20379621" vertical-offset="0" max-vertical-offset="2720">
+          <caret line="13" column="121" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
           <folding />
         </state>
       </provider>
