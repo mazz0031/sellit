@@ -1,108 +1,108 @@
 package sellit
 
-
+import grails.transaction.Transactional
 
 import static org.springframework.http.HttpStatus.*
-import grails.transaction.Transactional
 
 @Transactional(readOnly = true)
 class AccountController {
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+  static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-    def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Account.list(params), model:[accountInstanceCount: Account.count()]
+  def index(Integer max) {
+    params.max = Math.min(max ?: 10, 100)
+    respond Account.list(params), model: [accountInstanceCount: Account.count()]
+  }
+
+  def show(Account accountInstance) {
+    respond accountInstance
+  }
+
+  def create() {
+    respond new Account(params)
+  }
+
+  @Transactional
+  def save(Account accountInstance) {
+    if (accountInstance == null) {
+      notFound()
+      return
     }
 
-    def show(Account accountInstance) {
-        respond accountInstance
+    accountInstance.validate()
+    if (accountInstance.hasErrors()) {
+      respond accountInstance, view: 'create'
+      return
+    }
+    accountInstance.save flush: true
+
+
+    request.withFormat {
+      form multipartForm {
+        flash.message = message(code: 'default.created.message', args: [message(code: 'account.label', default: 'Account'), accountInstance.id])
+        redirect accountInstance
+      }
+      '*' { respond accountInstance, [status: CREATED] }
+    }
+  }
+
+  def edit(Account accountInstance) {
+    respond accountInstance
+  }
+
+  @Transactional
+  def update(Account accountInstance) {
+    if (accountInstance == null) {
+      notFound()
+      return
     }
 
-    def create() {
-        respond new Account(params)
+    if (accountInstance.hasErrors()) {
+      respond accountInstance.errors, view: 'edit'
+      return
     }
 
-    @Transactional
-    def save(Account accountInstance) {
-        if (accountInstance == null) {
-            notFound()
-            return
-        }
+    accountInstance.save flush: true
 
-        if (accountInstance.hasErrors()) {
-            respond accountInstance.errors, view:'create'
-            return
-        }
+    request.withFormat {
+      form multipartForm {
+        flash.message = message(code: 'default.updated.message', args: [message(code: 'account.label', default: 'Account'), accountInstance.id])
+        redirect accountInstance
+      }
+      '*' { respond accountInstance, [status: OK] }
+    }
+  }
 
-        accountInstance.save flush:true
+  @Transactional
+  def delete(Account accountInstance) {
 
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'account.label', default: 'Account'), accountInstance.id])
-                redirect accountInstance
-            }
-            '*' { respond accountInstance, [status: CREATED] }
-        }
+    if (accountInstance == null) {
+      notFound()
+      return
     }
 
-    def edit(Account accountInstance) {
-        respond accountInstance
+    accountInstance.delete flush: true
+
+    request.withFormat {
+      form multipartForm {
+        flash.message = message(code: 'default.deleted.message', args: [message(code: 'Account.label', default: 'Account'), accountInstance.id])
+        redirect action: "index", method: "GET"
+      }
+      '*' { render status: NO_CONTENT }
     }
+  }
 
-    @Transactional
-    def update(Account accountInstance) {
-        if (accountInstance == null) {
-            notFound()
-            return
-        }
-
-        if (accountInstance.hasErrors()) {
-            respond accountInstance.errors, view:'edit'
-            return
-        }
-
-        accountInstance.save flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'account.label', default: 'Account'), accountInstance.id])
-                redirect accountInstance
-            }
-            '*'{ respond accountInstance, [status: OK] }
-        }
+  protected void notFound() {
+    request.withFormat {
+      form multipartForm {
+        flash.message = message(code: 'default.not.found.message', args: [message(code: 'account.label', default: 'Account'), params.id])
+        redirect action: "index", method: "GET"
+      }
+      '*' { render status: NOT_FOUND }
     }
+  }
 
-    @Transactional
-    def delete(Account accountInstance) {
-
-        if (accountInstance == null) {
-            notFound()
-            return
-        }
-
-        accountInstance.delete flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'Account.label', default: 'Account'), accountInstance.id])
-                redirect action:"index", method:"GET"
-            }
-            '*'{ render status: NO_CONTENT }
-        }
-    }
-
-    protected void notFound() {
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.not.found.message', args: [message(code: 'account.label', default: 'Account'), params.id])
-                redirect action: "index", method: "GET"
-            }
-            '*'{ render status: NOT_FOUND }
-        }
-    }
-
-    boolean validatePassword(String pass) {
-        return (pass) && (pass =~ /\p{Alpha}/) && (pass =~ /\p{Digit}/)
-    }
+  boolean validatePassword(String pass) {
+    return (pass) && (pass =~ /\p{Alpha}/) && (pass =~ /\p{Digit}/)
+  }
 }
