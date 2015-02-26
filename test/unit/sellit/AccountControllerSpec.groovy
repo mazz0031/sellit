@@ -53,9 +53,7 @@ class AccountControllerSpec extends Specification {
       model.accountInstance.errors.getFieldError('name')
       model.accountInstance.errors.getFieldError('email')
       Account.count() == beforeSave
-    }
 
-  void 'account requiremnt #1 - success'() {
 
         when:"The save action is executed with a valid instance"
             response.reset()

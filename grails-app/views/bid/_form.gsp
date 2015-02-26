@@ -23,9 +23,8 @@
 <div class="fieldcontain ${hasErrors(bean: bidInstance, field: 'listedItem', 'error')} required">
 	<label for="listedItem">
 		<g:message code="bid.listedItem.label" default="Listed Item" />
-		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="listedItem" name="listedItem.id" from="${sellit.Listing.list()}" optionKey="id" optionValue="name" required="" value="${bidInstance?.listedItem?.id}" class="many-to-one"/>
-
+    <g:field type="text" name="listedItem" value="${bidInstance?.listedItem?.name}" readonly="readonly"/>
+	<% /*<g:select id="listedItem" name="listedItem.id" from="${sellit.Listing.list()}" readonly="true" optionKey="id" optionValue="name" required="" value="${bidInstance?.listedItem?.id}" class="many-to-one"/>*/%>
 </div>
 

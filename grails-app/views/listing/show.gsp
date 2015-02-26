@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<a href="#show-listing" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-  <g:link controller="bid" action="create" params="[listing: listingInstance]">Go To Bid</g:link>
+        <g:link controller="bid" action="create" params="[listedItemID: listingInstance.id]">Go To Bid</g:link>
 		<div class="nav" role="navigation">
 			<ul>
 				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>

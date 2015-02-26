@@ -19,8 +19,9 @@ class BidController {
         respond bidInstance
     }
 
-    def create() {
-        respond new Bid(params)
+    def create(int listedItemID) {
+        def newBid = new Bid(listedItem: Listing.get(listedItemID))
+        respond newBid
     }
 
     @Transactional
