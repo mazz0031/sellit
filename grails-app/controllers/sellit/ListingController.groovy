@@ -23,6 +23,11 @@ class ListingController {
         respond new Listing(params)
     }
 
+  def search(String searchTerm) {
+    // Put GORM Here
+
+    respond Listing.where, view: index.gsp
+  }
     @Transactional
     def save(Listing listingInstance) {
         if (listingInstance == null) {

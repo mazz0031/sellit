@@ -15,6 +15,10 @@
 				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
 			</ul>
 		</div>
+  <g:form name="search" action="search">
+    <input type="text" name="searchTerm" >
+    <button>Go </button>
+  </g:form>
 		<div id="list-listing" class="content scaffold-list" role="main">
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
 			<g:if test="${flash.message}">

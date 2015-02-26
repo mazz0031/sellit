@@ -36,18 +36,26 @@ class AccountControllerSpec extends Specification {
             model.accountInstance!= null
     }
 
-    void "Test the save action correctly persists an instance"() {
+    void "account requirement #1 - fail"() {
+      given:
+      int beforeSave = Account.count();
 
-        when:"The save action is executed with an invalid instance"
-            request.contentType = FORM_CONTENT_TYPE
-            request.method = 'POST'
-            def account = new Account()
-            account.validate()
-            controller.save(account)
+      when: "The save action is executed with an invalid instance"
+      request.contentType = FORM_CONTENT_TYPE
+      request.method = 'POST'
+      def account = new Account()
+      controller.save(account)
 
-        then:"The create view is rendered again with the correct model"
-            model.accountInstance!= null
-            view == 'create'
+      then: "The create view is rendered again with the correct model"
+      model.accountInstance != null
+      view == 'create'
+      model.accountInstance.errors.allErrors.size() == 4
+      model.accountInstance.errors.getFieldError('name')
+      model.accountInstance.errors.getFieldError('email')
+      Account.count() == beforeSave
+    }
+
+  void 'account requiremnt #1 - success'() {
 
         when:"The save action is executed with a valid instance"
             response.reset()
