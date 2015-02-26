@@ -85,13 +85,22 @@
 					
 				</li>
 				</g:if>
+
+                <g:if test="${listingInstance?.currentHighBid}">
+                    <li class="fieldcontain">
+                        <span id="bidAmount-label" class="property-label"><g:message code="bid.bidAmount.label" default="Current High Bid Amount" /></span>
+
+                        <span class="property-value" aria-labelledby="bidAmount-label"><g:fieldValue bean="${listingInstance}" field="currentHighBid"/></span>
+
+                    </li>
+                </g:if>
 			
 			</ol>
 			<g:form url="[resource:listingInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">
 					<g:link class="edit" action="edit" resource="${listingInstance}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
 					<g:actionSubmit class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
-
+                    <% /*  ToDo: add a button for create a new bid */ %>
 				</fieldset>
 			</g:form>
 		</div>

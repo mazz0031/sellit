@@ -43,14 +43,14 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${addressInstance.id}">${fieldValue(bean: addressInstance, field: "addressLine1")}</g:link></td>
+
+                        <td>${fieldValue(bean: addressInstance, field: "addressLine2")}</td>
 					
 						<td>${fieldValue(bean: addressInstance, field: "city")}</td>
 					
 						<td>${fieldValue(bean: addressInstance, field: "stateAbbr")}</td>
 					
 						<td>${fieldValue(bean: addressInstance, field: "postalCode")}</td>
-					
-						<td>${fieldValue(bean: addressInstance, field: "addressLine2")}</td>
 					
 						<td>${fieldValue(bean: addressInstance, field: "country")}</td>
 					

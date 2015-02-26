@@ -40,9 +40,9 @@
 				<g:each in="${reviewInstanceList}" status="i" var="reviewInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${reviewInstance.id}">${fieldValue(bean: reviewInstance, field: "listedItem")}</g:link></td>
-					
-						<td>${fieldValue(bean: reviewInstance, field: "reviewedAccount")}</td>
+						<td><g:link action="show" id="${reviewInstance.id}">${fieldValue(bean: reviewInstance, field: "listedItem.name")}</g:link></td>
+
+                        <td><g:link action="show" id="${reviewInstance.id}">${fieldValue(bean: reviewInstance, field: "reviewedAccount.name")}</g:link></td>
 					
 						<td><g:formatBoolean boolean="${reviewInstance.wasSeller}" /></td>
 					

@@ -7,7 +7,7 @@
 		<g:message code="review.listedItem.label" default="Listed Item" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="listedItem" name="listedItem.id" from="${sellit.Listing.list()}" optionKey="id" required="" value="${reviewInstance?.listedItem?.id}" class="many-to-one"/>
+	<g:select id="listedItem" name="listedItem.id" from="${sellit.Listing.list()}" optionKey="id" optionValue="name" required="" value="${reviewInstance?.listedItem?.id}" class="many-to-one"/>
 
 </div>
 
@@ -16,7 +16,7 @@
 		<g:message code="review.reviewedAccount.label" default="Reviewed Account" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="reviewedAccount" name="reviewedAccount.id" from="${sellit.Account.list()}" optionKey="id" required="" value="${reviewInstance?.reviewedAccount?.id}" class="many-to-one"/>
+	<g:select id="reviewedAccount" name="reviewedAccount.id" from="${sellit.Account.list()}" optionKey="id" optionValue="name" required="" value="${reviewInstance?.reviewedAccount?.id}" class="many-to-one"/>
 
 </div>
 

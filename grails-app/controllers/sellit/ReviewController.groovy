@@ -8,7 +8,7 @@ import grails.transaction.Transactional
 @Transactional(readOnly = true)
 class ReviewController {
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    static allowedMethods = [save: "POST"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -43,52 +43,6 @@ class ReviewController {
                 redirect reviewInstance
             }
             '*' { respond reviewInstance, [status: CREATED] }
-        }
-    }
-
-    def edit(Review reviewInstance) {
-        respond reviewInstance
-    }
-
-    @Transactional
-    def update(Review reviewInstance) {
-        if (reviewInstance == null) {
-            notFound()
-            return
-        }
-
-        if (reviewInstance.hasErrors()) {
-            respond reviewInstance.errors, view:'edit'
-            return
-        }
-
-        reviewInstance.save flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'Review.label', default: 'Review'), reviewInstance.id])
-                redirect reviewInstance
-            }
-            '*'{ respond reviewInstance, [status: OK] }
-        }
-    }
-
-    @Transactional
-    def delete(Review reviewInstance) {
-
-        if (reviewInstance == null) {
-            notFound()
-            return
-        }
-
-        reviewInstance.delete flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'Review.label', default: 'Review'), reviewInstance.id])
-                redirect action:"index", method:"GET"
-            }
-            '*'{ render status: NO_CONTENT }
         }
     }
 

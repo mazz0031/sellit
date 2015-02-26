@@ -9,6 +9,7 @@ class Listing {
     Float startingPrice
     String deliverOption
     Account sellerAccount
+    Float currentHighBid
 
 
     static constraints = {
@@ -19,6 +20,7 @@ class Listing {
         startingPrice blank: false, scale: 2,  min: 0.0F
         deliverOption blank: false, inList: ["US Only", "Worldwide", "Pick Up Only"]
         sellerAccount blank: false
+        currentHighBid nullable: true
     }
 
 }

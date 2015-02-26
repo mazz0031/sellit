@@ -27,7 +27,7 @@
 				<li class="fieldcontain">
 					<span id="listedItem-label" class="property-label"><g:message code="review.listedItem.label" default="Listed Item" /></span>
 					
-						<span class="property-value" aria-labelledby="listedItem-label"><g:link controller="listing" action="show" id="${reviewInstance?.listedItem?.id}">${reviewInstance?.listedItem?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="listedItem-label"><g:link controller="listing" action="show" id="${reviewInstance?.listedItem?.id}">${reviewInstance?.listedItem?.name}</g:link></span>
 					
 				</li>
 				</g:if>
@@ -36,7 +36,7 @@
 				<li class="fieldcontain">
 					<span id="reviewedAccount-label" class="property-label"><g:message code="review.reviewedAccount.label" default="Reviewed Account" /></span>
 					
-						<span class="property-value" aria-labelledby="reviewedAccount-label"><g:link controller="account" action="show" id="${reviewInstance?.reviewedAccount?.id}">${reviewInstance?.reviewedAccount?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="reviewedAccount-label"><g:link controller="account" action="show" id="${reviewInstance?.reviewedAccount?.id}">${reviewInstance?.reviewedAccount?.name}</g:link></span>
 					
 				</li>
 				</g:if>
@@ -69,12 +69,6 @@
 				</g:if>
 			
 			</ol>
-			<g:form url="[resource:reviewInstance, action:'delete']" method="DELETE">
-				<fieldset class="buttons">
-					<g:link class="edit" action="edit" resource="${reviewInstance}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
-					<g:actionSubmit class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
-				</fieldset>
-			</g:form>
 		</div>
 	</body>
 </html>

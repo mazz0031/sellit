@@ -31,7 +31,7 @@ class BidController {
         }
 
         if (!bidIsValid(bidInstance)) {
-            //ToDo: add error to bidInstance.Errors that bid must be $.50 greater than highest bid
+            bidInstance.errors.rejectValue("bidAmount", "bid is not valid")
         }
 
         if (bidInstance.hasErrors()) {
@@ -40,6 +40,7 @@ class BidController {
         }
 
         bidInstance.save flush:true
+        updateListingHighBid(bidInstance)
 
         request.withFormat {
             form multipartForm {
@@ -65,8 +66,15 @@ class BidController {
     }
 
     protected boolean bidIsValid(Bid bid) {
-        //ToDo: get existing bids, determine of there are any and if so then the highest amount
-        //ToDo: if ((noBids && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount > highBid + .50)) return true else return false
-        return true;
+        def bids = bid.where {listedItem == bid.listedItem}.list()
+        if ((bids.size() == 0 && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount > bids.bidAmount.max()+0.5)) {
+            return true
+        }
+        return false
+    }
+
+    protected void updateListingHighBid(Bid bid) {
+        bid.listedItem.currentHighBid = bid.bidAmount
+        bid.listedItem.save(failOnError: true)
     }
 }
