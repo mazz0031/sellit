@@ -2,6 +2,7 @@ import sellit.Account
 import sellit.Address
 import sellit.Bid
 import sellit.Listing
+import sellit.Review
 
 class BootStrap {
 
@@ -43,16 +44,7 @@ class BootStrap {
         def bid4 = new Bid(listedItem: listing1, biddingAccount: account1, bidAmount: 60.90)
         bid4.save(failOnError: true)
 
-
+        def review1 = new Review(listedItem: listing2, reviewedAccount: account2, wasSeller: true, thumbsUp: true, reviewDescription: "Good Seller")
+        review1.save(failOnError: true)
     }
-
-
-
-
-
-
-
-
-
-
 }

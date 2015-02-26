@@ -11,8 +11,14 @@ class ReviewControllerSpec extends Specification {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        def address = new Address(addressLine1: "123 Main Street", city: "Nowhere", stateAbbr: "AK", postalCode: "12345")
+        def account = new Account(name: "Joe Rockhead", email: "joe@bedrockfd.gov", password: "xxxx1234", address: address)
+        def listing = new Listing(name: "Truck", description: "1995 Ford F-350", startDate: new Date(year: 2015, month: 02, date: 28), listingDays: 7, startingPrice: 2000, deliverOption: "US Only", sellerAccount: account)
+        params["listedItem"] = listing
+        params["reviewedAccount"] = account
+        params["wasSeller"] = true
+        params["thumbsUp"] = true
+        params["reviewDescription"] = "Good Seller"
     }
 
     void "Test the index action returns the correct model"() {

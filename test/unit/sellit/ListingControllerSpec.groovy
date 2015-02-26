@@ -11,8 +11,15 @@ class ListingControllerSpec extends Specification {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        def address = new Address(addressLine1: "123 Main Street", city: "Nowhere", stateAbbr: "AK", postalCode: "12345")
+        def account = new Account(name: "Joe Rockhead", email: "joe@bedrockfd.gov", password: "xxxx1234", address: address)
+        params["name"] = 'Truck'
+        params["description"] = '1995 Ford F-350'
+        params["startDate"] = new Date(year: 2015, month: 02, date: 28)
+        params["listingDays"] = 7
+        params["startingPrice"] = 2000
+        params["deliverOption"] = "US Only"
+        params["sellerAccount"] = account
     }
 
     void "Test the index action returns the correct model"() {
@@ -149,4 +156,5 @@ class ListingControllerSpec extends Specification {
             response.redirectedUrl == '/listing/index'
             flash.message != null
     }
+
 }

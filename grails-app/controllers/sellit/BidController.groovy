@@ -66,9 +66,11 @@ class BidController {
     }
 
     protected boolean bidIsValid(Bid bid) {
-        def bids = bid.where {listedItem == bid.listedItem}.list()
-        if ((bids.size() == 0 && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount > bids.bidAmount.max()+0.5)) {
-            return true
+        if (bid.listedItem) {
+            def bids = bid.where { listedItem == bid.listedItem }.list()
+            if ((bids.size() == 0 && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount > bids.bidAmount.max() + 0.5)) {
+                return true
+            }
         }
         return false
     }

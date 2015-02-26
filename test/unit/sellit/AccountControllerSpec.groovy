@@ -11,8 +11,11 @@ class AccountControllerSpec extends Specification {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        def address = new Address(addressLine1: "123 Main Street", city: "Nowhere", stateAbbr: "AK", postalCode: "12345")
+        params["name"] = 'Joe Rockhead'
+        params["email"] = 'joe@bedrockfd.gov'
+        params["password"] = 'xxxx1234'
+        params["address"] = address
     }
 
     void "Test the index action returns the correct model"() {
