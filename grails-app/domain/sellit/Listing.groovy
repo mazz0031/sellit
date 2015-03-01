@@ -15,7 +15,7 @@ class Listing {
     static constraints = {
         name blank: false
         description blank: false
-        startDate blank: false, min: new Date()
+        startDate blank: false
         listingDays blank: false, min: 3, max: 10
         startingPrice blank: false, scale: 2,  min: 0.0F
         deliverOption blank: false, inList: ["US Only", "Worldwide", "Pick Up Only"]

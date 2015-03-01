@@ -28,10 +28,10 @@ class BootStrap {
         def account2 = new Account(name: "John", email: "john@hotmail.com", password: "xxxxx123", address: address2)
         account2.save(failOnError: true)
 
-        def listing1 = new Listing(name: "Television", description: "19-inch color CRT", startDate: new Date(),
+        def listing1 = new Listing(name: "Television", description: "19-inch color CRT", startDate: new Date().copyWith(year: 2015, month: Calendar.MARCH, dayOfMonth: 10),
                 listingDays: 6, startingPrice: 52.00, deliverOption: "US Only", sellerAccount: account1)
         listing1.save(failOnError: true)
-        def listing2 = new Listing(name: "Radio", description: "boombox", startDate: new Date(year: 2015, month: 02, date: 18),
+        def listing2 = new Listing(name: "Radio", description: "boombox", startDate: new Date().copyWith(year: 2015, month: Calendar.FEBRUARY, dayOfMonth: 15),
                 listingDays: 5, startingPrice: 10.00, deliverOption: "US Only", sellerAccount: account2)
         listing2.save(failOnError: true)
 

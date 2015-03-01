@@ -1,9 +1,9 @@
 package sellit
 
 
-
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
+import groovy.time.TimeCategory
 
 @Transactional(readOnly = true)
 class ListingController {
@@ -12,7 +12,7 @@ class ListingController {
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        respond Listing.list(params), model:[listingInstanceCount: Listing.count()]
+        respond Listing.list(params), model: [listingInstanceCount: Listing.count()]
     }
 
     def show(Listing listingInstance) {
@@ -23,11 +23,11 @@ class ListingController {
         respond new Listing(params)
     }
 
-  def search(String searchTerm) {
-    // Put GORM Here
+    def search(String searchTerm, boolean showCompleted) {
+        def now = new Date()
+        respond Listing.where { startDate.plus(listingDays) < now }.toList(), view: 'index'
+    }
 
-    respond Listing.where, view: index.gsp
-  }
     @Transactional
     def save(Listing listingInstance) {
         if (listingInstance == null) {
@@ -36,11 +36,11 @@ class ListingController {
         }
 
         if (listingInstance.hasErrors()) {
-            respond listingInstance.errors, view:'create'
+            respond listingInstance.errors, view: 'create'
             return
         }
 
-        listingInstance.save flush:true
+        listingInstance.save flush: true
 
         request.withFormat {
             form multipartForm {
@@ -63,18 +63,18 @@ class ListingController {
         }
 
         if (listingInstance.hasErrors()) {
-            respond listingInstance.errors, view:'edit'
+            respond listingInstance.errors, view: 'edit'
             return
         }
 
-        listingInstance.save flush:true
+        listingInstance.save flush: true
 
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.updated.message', args: [message(code: 'Listing.label', default: 'Listing'), listingInstance.id])
                 redirect listingInstance
             }
-            '*'{ respond listingInstance, [status: OK] }
+            '*' { respond listingInstance, [status: OK] }
         }
     }
 
@@ -86,14 +86,14 @@ class ListingController {
             return
         }
 
-        listingInstance.delete flush:true
+        listingInstance.delete flush: true
 
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.deleted.message', args: [message(code: 'Listing.label', default: 'Listing'), listingInstance.id])
-                redirect action:"index", method:"GET"
+                redirect action: "index", method: "GET"
             }
-            '*'{ render status: NO_CONTENT }
+            '*' { render status: NO_CONTENT }
         }
     }
 
@@ -103,7 +103,7 @@ class ListingController {
                 flash.message = message(code: 'default.not.found.message', args: [message(code: 'listing.label', default: 'Listing'), params.id])
                 redirect action: "index", method: "GET"
             }
-            '*'{ render status: NOT_FOUND }
+            '*' { render status: NOT_FOUND }
         }
     }
 }
