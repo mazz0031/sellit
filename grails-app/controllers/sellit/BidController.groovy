@@ -10,9 +10,9 @@ class BidController {
 
     static allowedMethods = [save: "POST"]
 
-    def index(Integer max) {
+    def index(Integer max, Integer listedItemID) {
         params.max = Math.min(max ?: 10, 100)
-        respond Bid.list(params), model:[bidInstanceCount: Bid.count()]
+        respond Bid.where { listedItem.id == listedItemID }.toList(), model:[bidInstanceCount: Bid.where { listedItem.id == listedItemID }.count()]
     }
 
     def show(Bid bidInstance) {
@@ -68,7 +68,7 @@ class BidController {
 
     protected boolean bidIsValid(Bid bid) {
         if (bid.listedItem) {
-            def bids = bid.where { listedItem == bid.listedItem }.list()
+            def bids = Bid.where { listedItem.id == bid.listedItem.id }.toList()
             if ((bids.size() == 0 && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount > bids.bidAmount.max() + 0.5)) {
                 return true
             }
@@ -78,6 +78,7 @@ class BidController {
 
     protected void updateListingHighBid(Bid bid) {
         bid.listedItem.currentHighBid = bid.bidAmount
+        bid.listedItem.highBidAccount = bid.biddingAccount
         bid.listedItem.save(failOnError: true)
     }
 }

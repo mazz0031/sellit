@@ -25,7 +25,12 @@ class ListingController {
 
     def search(String searchTerm, boolean showCompleted) {
         def now = new Date()
-        respond Listing.where { startDate.plus(listingDays) < now }.toList(), view: 'index'
+        if (showCompleted) {
+            respond Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate < now}.toList(), view: 'index'
+        }
+        else {
+            respond Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate >= now}.toList(), view: 'index'
+        }
     }
 
     @Transactional
@@ -34,6 +39,8 @@ class ListingController {
             notFound()
             return
         }
+
+        setEndDate(listingInstance)
 
         if (listingInstance.hasErrors()) {
             respond listingInstance.errors, view: 'create'
@@ -61,6 +68,8 @@ class ListingController {
             notFound()
             return
         }
+
+        setEndDate(listingInstance)
 
         if (listingInstance.hasErrors()) {
             respond listingInstance.errors, view: 'edit'
@@ -105,5 +114,9 @@ class ListingController {
             }
             '*' { render status: NOT_FOUND }
         }
+    }
+
+    protected void setEndDate(Listing listingInstance) {
+        listingInstance.endDate = listingInstance.startDate.plus(listingInstance.listingDays)
     }
 }

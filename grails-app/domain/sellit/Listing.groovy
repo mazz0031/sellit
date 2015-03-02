@@ -6,10 +6,12 @@ class Listing {
     String description
     Date startDate
     Integer listingDays
+    Date endDate
     Float startingPrice
     String deliverOption
     Account sellerAccount
     Float currentHighBid
+    Account highBidAccount
 
 
     static constraints = {
@@ -21,6 +23,7 @@ class Listing {
         deliverOption blank: false, inList: ["US Only", "Worldwide", "Pick Up Only"]
         sellerAccount blank: false
         currentHighBid nullable: true
+        highBidAccount nullable: true
     }
 
 }

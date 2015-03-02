@@ -36,7 +36,6 @@ class AccountController {
     }
     accountInstance.save flush: true
 
-
     request.withFormat {
       form multipartForm {
         flash.message = message(code: 'default.created.message', args: [message(code: 'account.label', default: 'Account'), accountInstance.id])
