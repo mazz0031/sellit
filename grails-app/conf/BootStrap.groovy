@@ -46,5 +46,7 @@ class BootStrap {
 
         def review1 = new Review(listedItem: listing2, reviewedAccount: account2, wasSeller: true, thumbsUp: true, reviewDescription: "Good Seller")
         review1.save(failOnError: true)
+        def review2 = new Review(listedItem: listing2, reviewedAccount: account1, wasSeller: false, thumbsUp: true, reviewDescription: "Good Buyer")
+        review2.save(failOnError: true)
     }
 }

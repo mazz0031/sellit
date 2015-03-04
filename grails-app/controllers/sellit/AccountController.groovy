@@ -15,7 +15,8 @@ class AccountController {
   }
 
   def show(Account accountInstance) {
-    respond accountInstance
+      accountInstance.reviewList = Review.where {reviewedAccount == accountInstance}.toList()
+      respond accountInstance
   }
 
   def create() {

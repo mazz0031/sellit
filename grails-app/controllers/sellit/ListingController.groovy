@@ -12,11 +12,10 @@ class ListingController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 2, 100)  //ToDo: how do I include a where clause and a params.max in the same query?
+        params.max = Math.min(max ?: 10, 100)
         def now = new Date()
-        def results = Listing.where {endDate >= now}.toList()
-        respond results, model: [listingInstanceCount: results.size()], view: 'index'
-        //respond Listing.list(params), model: [listingInstanceCount: Listing.count()]
+        def results = Listing.where {endDate >= now}
+        respond results.list(params), model: [listingInstanceCount: results.size()], view: 'index'
     }
 
     def show(Listing listingInstance) {
@@ -28,13 +27,15 @@ class ListingController {
     }
 
     def search(String searchTerm, boolean showCompleted, Integer max) {
-        params.max = Math.min(max ?: 2, 100)  //ToDo: how do I include a where clause and a params.max in the same query?
+        params.max = Math.min(max ?: 10, 100)
         def now = new Date()
         if (showCompleted) {
-            respond Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate < now}.toList(), view: 'index'
+            def results = Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate < now}
+            respond results.list(params), model: [listingInstanceCount: results.size()], view: 'index'
         }
         else {
-            respond Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate >= now}.toList(), view: 'index'
+            def results = Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate >= now}
+            respond results.list(params), model: [listingInstanceCount: results.size()], view: 'index'
         }
     }
 
