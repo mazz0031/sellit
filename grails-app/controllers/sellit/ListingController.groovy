@@ -1,5 +1,6 @@
 package sellit
 
+import org.h2.api.DatabaseEventListener
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
@@ -11,8 +12,11 @@ class ListingController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Listing.list(params), model: [listingInstanceCount: Listing.count()]
+        params.max = Math.min(max ?: 2, 100)  //ToDo: how do I include a where clause and a params.max in the same query?
+        def now = new Date()
+        def results = Listing.where {endDate >= now}.toList()
+        respond results, model: [listingInstanceCount: results.size()], view: 'index'
+        //respond Listing.list(params), model: [listingInstanceCount: Listing.count()]
     }
 
     def show(Listing listingInstance) {
@@ -23,7 +27,8 @@ class ListingController {
         respond new Listing(params)
     }
 
-    def search(String searchTerm, boolean showCompleted) {
+    def search(String searchTerm, boolean showCompleted, Integer max) {
+        params.max = Math.min(max ?: 2, 100)  //ToDo: how do I include a where clause and a params.max in the same query?
         def now = new Date()
         if (showCompleted) {
             respond Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate < now}.toList(), view: 'index'

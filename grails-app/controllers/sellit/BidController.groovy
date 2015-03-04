@@ -19,7 +19,7 @@ class BidController {
         respond bidInstance
     }
 
-    def create(int listedItemID) {
+    def create(Integer listedItemID) {
         def newBid = new Bid(listedItem: Listing.get(listedItemID))
         respond newBid
     }
@@ -69,7 +69,7 @@ class BidController {
     protected boolean bidIsValid(Bid bid) {
         if (bid.listedItem) {
             def bids = Bid.where { listedItem.id == bid.listedItem.id }.toList()
-            if ((bids.size() == 0 && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount > bids.bidAmount.max() + 0.5)) {
+            if ((bids.size() == 0 && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount >= bids.bidAmount.max() + 0.5)) {
                 return true
             }
         }

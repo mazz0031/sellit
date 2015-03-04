@@ -19,8 +19,9 @@ class ReviewController {
         respond reviewInstance
     }
 
-    def create() {
-        respond new Review(params)
+    def create(Integer listedItemID) {
+        def newReview = new Review(listedItem: Listing.get(listedItemID))
+        respond newReview
     }
 
     @Transactional
