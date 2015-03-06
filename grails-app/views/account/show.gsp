@@ -14,7 +14,6 @@
     <ul>
         <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
         <li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]"/></g:link></li>
-        <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]"/></g:link></li>
     </ul>
 </div>
 
@@ -25,49 +24,49 @@
     </g:if>
     <ol class="property-list account">
 
-        <g:if test="${accountInstance?.name}">
+        <g:if test="${account?.name}">
             <li class="fieldcontain">
                 <span id="name-label" class="property-label"><g:message code="account.name.label" default="Name"/></span>
-                <span class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${accountInstance}" field="name"/></span>
+                <span id="name" class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${account}" field="name"/></span>
             </li>
         </g:if>
 
-        <g:if test="${accountInstance?.email}">
+        <g:if test="${account?.email}">
             <li class="fieldcontain">
                 <span id="email-label" class="property-label"><g:message code="account.email.label" default="Email"/></span>
-                <span class="property-value" aria-labelledby="email-label"><g:fieldValue bean="${accountInstance}" field="email"/></span>
+                <span id="email" class="property-value" aria-labelledby="email-label"><g:fieldValue bean="${account}" field="email"/></span>
             </li>
         </g:if>
 
-        <g:if test="${accountInstance?.password}">
+        <g:if test="${account?.password}">
             <li class="fieldcontain">
                 <span id="password-label" class="property-label"><g:message code="account.password.label" default="Password"/></span>
-                <span class="property-value" aria-labelledby="password-label"><g:fieldValue bean="${accountInstance}" field="password"/></span>
+                <span id="password" class="property-value" aria-labelledby="password-label"><g:fieldValue bean="${account}" field="password"/></span>
             </li>
         </g:if>
 
-        <g:if test="${accountInstance?.address}">
+        <g:if test="${account?.address}">
             <li class="fieldcontain">
                 <span id="address-label" class="property-label"><g:message code="account.address.label" default="Address"/></span>
-                <span class="property-value" aria-labelledby="address-label"><g:link controller="address" action="show" id="${accountInstance?.address?.id}">${accountInstance?.address?.addressLine1}</g:link></span>
+                <span id="address" class="property-value" aria-labelledby="address-label"><g:link controller="address" action="show" id="${account?.address?.id}">${account?.address?.addressLine1}</g:link></span>
             </li>
         </g:if>
 
-        <g:if test="${accountInstance?.dateCreated}">
+        <g:if test="${account?.dateCreated}">
             <li class="fieldcontain">
                 <span id="dateCreated-label" class="property-label"><g:message code="account.dateCreated" default="Date Created"/></span>
-                <span class="property-value" aria-labelledby="dateCreated-label"><g:fieldValue bean="${accountInstance}" field="dateCreated"/></span>
+                <span id="dateCreated" class="property-value" aria-labelledby="dateCreated-label"><g:fieldValue bean="${account}" field="dateCreated"/></span>
             </li>
         </g:if>
 
-        <g:if test="${accountInstance?.lastUpdated}">
+        <g:if test="${account?.lastUpdated}">
             <li class="fieldcontain">
                 <span id="lastUpdated-label" class="property-label"><g:message code="account.lastUpdated" default="Last Updated"/></span>
-                <span class="property-value" aria-labelledby="lastUpdated-label"><g:fieldValue bean="${accountInstance}" field="lastUpdated"/></span>
+                <span id="lastUpdated" class="property-value" aria-labelledby="lastUpdated-label"><g:fieldValue bean="${account}" field="lastUpdated"/></span>
             </li>
         </g:if>
 
-        <g:if test="${accountInstance?.reviewList}">
+
             <li class="fieldcontain">
                 <span id="ReviewList-label" class="property-label"><g:message code="account.ReviewList" default="Review List"/></span>
                 <span class="property-value" aria-labelledby="ReviewList-label">
@@ -81,7 +80,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <g:each in="${accountInstance.reviewList}" status="i" var="reviewInstance">
+                        <g:each in="${reviews}" status="i" var="reviewInstance">
                             <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
                                 <td><g:link action="show" id="${reviewInstance.id}">${fieldValue(bean: reviewInstance, field: "listedItem.name")}</g:link></td>
                                 <td><g:formatBoolean boolean="${reviewInstance.wasSeller}"/></td>
@@ -93,7 +92,7 @@
                     </table>
                 </span>
             </li>
-        </g:if>
+
 
     </ol>
     <g:form url="[resource: accountInstance, action: 'delete']" method="DELETE">

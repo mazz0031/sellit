@@ -57,6 +57,7 @@ grails.project.dependency.resolution = {
             transitive = false
         }
         test "org.seleniumhq.selenium:selenium-chrome-driver:2.44.0"
+
     }
 
     plugins {
@@ -75,6 +76,7 @@ grails.project.dependency.resolution = {
 
         // plugins for test
         test "org.grails.plugins:geb:0.10.0"
+        compile ":remote-control:1.5"
 
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.9.0"

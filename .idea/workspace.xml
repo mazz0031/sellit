@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/grails-app/views/account/get.gsp" line="7" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="25aad472-7727-4d36-a7c3-c3e2861dab1c" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_$tt__delete_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_$tt__save_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_$tt__update_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_notFound_closure8_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__delete_closure12_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__delete_closure12_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__save_closure10_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__save_closure10_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__update_closure11_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__update_closure11_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_$tt__save_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_notFound_closure6_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_notFound_closure6_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_tt__save_closure8_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_tt__save_closure8_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__delete_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__save_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__update_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_notFound_closure9_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_notFound_closure9_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__delete_closure12_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__delete_closure12_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__save_closure10_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__save_closure10_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__update_closure11_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__update_closure11_closure18.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/sellit/AccountFunctionalSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/account/get.gsp" />
+      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\test\sellit\sellit\CreateAccountSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\test\functional\sellit\CreateAccountSpec.groovy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractAssetFile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractProcessor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure1.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Account.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_notFound_closure8.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_notFound_closure8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_notFound_closure8_closure14.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_notFound_closure8_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_tt__delete_closure13_closure20.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_tt__delete_closure13_closure20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_tt__save_closure11_closure16.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_tt__save_closure11_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_tt__update_closure12_closure18.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_tt__update_closure12_closure18.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/AccountControllerSpec.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/AccountControllerSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Address.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Address.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AddressController$_tt__delete_closure11_closure18.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AddressController$_tt__delete_closure11_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AddressController$_tt__save_closure9_closure14.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AddressController$_tt__save_closure9_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AddressController$_tt__update_closure10_closure16.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AddressController$_tt__update_closure10_closure16.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AddressController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AddressController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/AddressControllerSpec.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/AddressControllerSpec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler.class" />
@@ -50,10 +36,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Bid.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Bid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_bidIsValid_closure7.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_bidIsValid_closure7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_create_closure3.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_create_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_index_closure1.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_index_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_notFound_closure6.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_notFound_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_bidIsValid_closure7_closure13.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_bidIsValid_closure7_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_tt__save_closure10_closure16.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_tt__save_closure10_closure16.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/BidControllerSpec.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/BidControllerSpec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CacheManager.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CacheManager.class" />
@@ -65,7 +49,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigBuilder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/CreateAccountSpec.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/CreateAccountSpec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CssAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CssAssetFile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssMinifyPostProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssMinifyPostProcessor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor.class" />
@@ -82,12 +65,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDiff.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsCacheAdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
@@ -97,16 +78,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure2.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/JsAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/JsAssetFile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/LinkGenerator.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/LinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Listing$__clinit__closure1.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Listing$__clinit__closure1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Listing.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Listing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_notFound_closure9.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_notFound_closure9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_search_closure4.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_search_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_tt__delete_closure15_closure26.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_tt__delete_closure15_closure26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_tt__save_closure13_closure22.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_tt__save_closure13_closure22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_tt__update_closure14_closure24.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_tt__update_closure14_closure24.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/ListingControllerSpec.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/ListingControllerSpec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/ManifestAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/ManifestAssetFile.class" />
@@ -120,12 +100,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Review.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Review.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_$tt__save_closure6.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_$tt__save_closure6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_create_closure3.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_create_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_notFound_closure5.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_notFound_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_notFound_closure5_closure7.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_notFound_closure5_closure7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_notFound_closure5_closure8.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_notFound_closure5_closure8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_tt__save_closure6_closure10.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_tt__save_closure6_closure10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_tt__save_closure6_closure9.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_tt__save_closure6_closure9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/ReviewControllerSpec.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/ReviewControllerSpec.class" />
@@ -140,11 +114,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServerFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/sellit/Account.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/sellit/Account.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/account/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/account/_form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/sellit/pages/AccountPage.groovy" afterPath="$PROJECT_DIR$/test/functional/sellit/pages/AccountPage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sellit-grailsPlugins.iml" afterPath="$PROJECT_DIR$/sellit-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sellit.iml" afterPath="$PROJECT_DIR$/sellit.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/account/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/account/show.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -192,8 +166,8 @@
       <file leaf-file-name="show.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/account/show.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.102041" vertical-offset="0" max-vertical-offset="1938">
-              <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+            <state vertical-scroll-proportion="-6.9387755" vertical-offset="697" max-vertical-offset="1921">
+              <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -202,28 +176,52 @@
       <file leaf-file-name="AccountController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.826087" vertical-offset="0" max-vertical-offset="1904">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state vertical-scroll-proportion="-17.0" vertical-offset="51" max-vertical-offset="2091">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+              <folding>
+                <element signature="e#16#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/account/_form.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.183674" vertical-offset="0" max-vertical-offset="935">
+              <caret line="38" column="97" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Account.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Account.groovy">
+      <file leaf-file-name="AccountFunctionalSpec.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/functional/sellit/AccountFunctionalSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4702628" vertical-offset="0" max-vertical-offset="723">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7241888" vertical-offset="308" max-vertical-offset="986">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountPage.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/functional/sellit/pages/AccountPage.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/review/index.gsp">
+      <file leaf-file-name="get.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/account/get.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.2040815" vertical-offset="408" max-vertical-offset="1156">
-              <caret line="39" column="82" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="83" />
+            <state vertical-scroll-proportion="-3.4693878" vertical-offset="0" max-vertical-offset="289">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -240,8 +238,6 @@
         <option value="$PROJECT_DIR$/test/unit/sellit/AccountSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/sellit/Review.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/sellit/Bid.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/GebConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/address/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/sellit/Address.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/account/index.gsp" />
@@ -256,8 +252,6 @@
         <option value="$PROJECT_DIR$/test/unit/sellit/ListingControllerSpec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/sellit/ReviewControllerSpec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/sellit/AccountControllerSpec.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/sellit/CreateAccountSpec.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/sellit/pages/AccountPage.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/bid/_form.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/bid/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/listing/_form.gsp" />
@@ -269,10 +263,17 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/sellit/ReviewController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/account/_form.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/account/show.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/sellit/Account.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/sellit/CreateAccountSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/sellit/pages/pages/AccountFunctionalSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/GebConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/account/show.gsp" />
+        <option value="$PROJECT_DIR$/test/functional/sellit/pages/AccountPage.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/account/get.gsp" />
+        <option value="$PROJECT_DIR$/test/functional/sellit/AccountFunctionalSpec.groovy" />
       </list>
     </option>
   </component>
@@ -338,11 +339,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,10 +424,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="review" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,8 +545,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,41 +568,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesGSP" value="false" />
   </component>
-  <component name="RunManager" selected="Grails.Grails:sellit">
-    <configuration default="false" name="AddressControllerSpec" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
-      <module name="sellit" />
-      <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
-      <setting name="cmdLine" value="test-app unit: sellit.AddressControllerSpec -echoOut" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <RunnerSettings RunnerId="GrailsMavenDebuggerRunner">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="GrailsMavenDebuggerRunner" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AccountControllerSpec" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
-      <module name="sellit" />
-      <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
-      <setting name="cmdLine" value="test-app unit: sellit.AccountControllerSpec -echoOut" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <RunnerSettings RunnerId="GrailsMavenDebuggerRunner">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="GrailsMavenDebuggerRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Grails.AccountFunctionalSpec">
     <configuration default="false" name="ListingControllerSpec" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
       <module name="sellit" />
       <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
@@ -592,6 +617,42 @@
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <ConfigurationWrapper RunnerId="GrailsMavenDebuggerRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Grails tests:functional" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
+      <module name="sellit" />
+      <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
+      <setting name="cmdLine" value="test-app functional: -echoOut" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <RunnerSettings RunnerId="GrailsMavenDebuggerRunner">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="GrailsMavenDebuggerRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccountFunctionalSpec" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
+      <module name="sellit" />
+      <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
+      <setting name="cmdLine" value="test-app functional: sellit.AccountFunctionalSpec -echoOut" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <RunnerSettings RunnerId="GrailsMavenDebuggerRunner">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="GrailsMavenDebuggerRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -875,19 +936,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Grails.Grails:sellit" />
-      <item index="1" class="java.lang.String" itemvalue="Grails.AddressControllerSpec" />
-      <item index="2" class="java.lang.String" itemvalue="Grails.AccountControllerSpec" />
-      <item index="3" class="java.lang.String" itemvalue="Grails.ListingControllerSpec" />
-      <item index="4" class="java.lang.String" itemvalue="Grails.BidControllerSpec" />
-      <item index="5" class="java.lang.String" itemvalue="Grails.ReviewControllerSpec" />
+      <item index="1" class="java.lang.String" itemvalue="Grails.ListingControllerSpec" />
+      <item index="2" class="java.lang.String" itemvalue="Grails.BidControllerSpec" />
+      <item index="3" class="java.lang.String" itemvalue="Grails.ReviewControllerSpec" />
+      <item index="4" class="java.lang.String" itemvalue="Grails.Grails tests:functional" />
+      <item index="5" class="java.lang.String" itemvalue="Grails.AccountFunctionalSpec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Grails.ReviewControllerSpec" />
-        <item index="1" class="java.lang.String" itemvalue="Grails.ListingControllerSpec" />
-        <item index="2" class="java.lang.String" itemvalue="Grails.BidControllerSpec" />
-        <item index="3" class="java.lang.String" itemvalue="Grails.AccountControllerSpec" />
-        <item index="4" class="java.lang.String" itemvalue="Grails.AddressControllerSpec" />
+        <item index="0" class="java.lang.String" itemvalue="Grails.AccountFunctionalSpec" />
+        <item index="1" class="java.lang.String" itemvalue="Grails.Grails tests:functional" />
+        <item index="2" class="java.lang.String" itemvalue="Grails.ReviewControllerSpec" />
+        <item index="3" class="java.lang.String" itemvalue="Grails.ListingControllerSpec" />
+        <item index="4" class="java.lang.String" itemvalue="Grails.BidControllerSpec" />
       </list>
     </recent_temporary>
   </component>
@@ -917,11 +978,14 @@
       <workItem from="1425437446790" duration="8651000" />
       <workItem from="1425446152979" duration="223000" />
       <workItem from="1425446528283" duration="1726000" />
+      <workItem from="1425493981866" duration="941000" />
+      <workItem from="1425496859761" duration="220000" />
+      <workItem from="1425603427158" duration="7789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81532000" />
+    <option name="totallyTimeSpent" value="90482000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -945,7 +1009,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="1186" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -956,6 +1020,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794678" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -963,12 +1028,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26425856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21958175" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -978,8 +1044,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1005,7 +1069,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="24" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1014,118 +1078,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/ReviewControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10121457" vertical-offset="495" max-vertical-offset="1496">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/BidControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36133602" vertical-offset="0" max-vertical-offset="1462">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/ListingControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38861138" vertical-offset="1804" max-vertical-offset="2805">
-          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/sellit/AddressControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="187" max-vertical-offset="2703">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Bid.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6415094" vertical-offset="0" max-vertical-offset="340">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.springframework/spring-web/jars/spring-web-4.0.7.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="2380">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/dist/grails-plugin-rest-2.4.4-sources.jar!/org/grails/plugins/web/rest/api/ControllersRestApi.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="3417">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.springframework/spring-beans/jars/spring-beans-4.0.7.RELEASE-sources.jar!/org/springframework/beans/BeanWrapperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324397" vertical-offset="1299" max-vertical-offset="19125">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.springframework/spring-core/jars/spring-core-4.0.7.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324397" vertical-offset="5311" max-vertical-offset="20553">
-          <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/dist/grails-bootstrap-2.4.4-sources.jar!/grails/util/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324397" vertical-offset="6093" max-vertical-offset="7361">
-          <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
-          <folding>
-            <element signature="e#13125#13126#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.springframework/spring-beans/jars/spring-beans-4.0.7.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324397" vertical-offset="449" max-vertical-offset="10081">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/GebConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14214046" vertical-offset="0" max-vertical-offset="598">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/sellit/AccountControllerSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2822">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/sellit/CreateAccountSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19921875" vertical-offset="0" max-vertical-offset="1024">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/sellit/pages/AccountPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16601562" vertical-offset="0" max-vertical-offset="1024">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1225,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57163745" vertical-offset="0" max-vertical-offset="1122">
           <caret line="23" column="96" selection-start-line="23" selection-start-column="96" selection-end-line="23" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,15 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1271" max-vertical-offset="1972">
           <caret line="104" column="123" selection-start-line="104" selection-start-column="123" selection-end-line="104" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1513">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39060938" vertical-offset="0" max-vertical-offset="1001">
           <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -1282,7 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16943868" vertical-offset="58" max-vertical-offset="1020">
           <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,7 +1242,7 @@
         <state vertical-scroll-proportion="0.6348548" vertical-offset="0" max-vertical-offset="2278">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#16#55#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1349,15 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55661666" vertical-offset="0" max-vertical-offset="918">
           <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/account/_form.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.627193" vertical-offset="251" max-vertical-offset="935">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,7 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30567083" vertical-offset="0" max-vertical-offset="723">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
@@ -1374,37 +1308,183 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/review/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2040815" vertical-offset="408" max-vertical-offset="1156">
-          <caret line="39" column="82" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1156">
+          <caret line="39" column="78" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/account/show.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.102041" vertical-offset="0" max-vertical-offset="1938">
-          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.826087" vertical-offset="0" max-vertical-offset="1904">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.37621024" vertical-offset="17" max-vertical-offset="1513">
+          <caret line="18" column="13" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Account.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4702628" vertical-offset="0" max-vertical-offset="723">
+        <state vertical-scroll-proportion="-14.782609" vertical-offset="0" max-vertical-offset="442">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/GebConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/account/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.244898" vertical-offset="0" max-vertical-offset="748">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="871" max-vertical-offset="1581">
+          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.spockframework/spock-core/jars/spock-core-0.7-groovy-2.0-sources.jar!/org/spockframework/util/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1532" max-vertical-offset="2278">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.spockframework/spock-core/jars/spock-core-0.7-groovy-2.0-sources.jar!/org/spockframework/runtime/BaseSpecRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="742" max-vertical-offset="5406">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/org.spockframework/spock-core/jars/spock-core-0.7-groovy-2.0-sources.jar!/org/spockframework/runtime/Sputnik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1411">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/junit/junit/jars/junit-4.11-sources.jar!/org/junit/runners/Suite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#4483#4484#0" expanded="false" />
+            <element signature="e#4519#4520#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/junit/junit/jars/junit-4.11-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4410" max-vertical-offset="5882">
+          <caret line="315" column="0" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
+          <folding>
+            <element signature="e#2542#2543#0" expanded="false" />
+            <element signature="e#2586#2587#0" expanded="false" />
+            <element signature="e#9008#9147#0" expanded="false" />
+            <element signature="e#9146#9147#0" expanded="false" />
+            <element signature="e#9300#9448#0" expanded="false" />
+            <element signature="e#9447#9448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/lib/junit/junit/jars/junit-4.11-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1707" max-vertical-offset="2839">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="e#5276#5277#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/account/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.387754" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/review/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39766082" vertical-offset="255" max-vertical-offset="1360">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/account/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.183674" vertical-offset="0" max-vertical-offset="935">
+          <caret line="38" column="97" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/account/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9387755" vertical-offset="697" max-vertical-offset="1921">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0" vertical-offset="51" max-vertical-offset="2091">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/sellit/pages/AccountPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/account/get.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4693878" vertical-offset="0" max-vertical-offset="289">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/sellit/AccountFunctionalSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7241888" vertical-offset="308" max-vertical-offset="986">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#40#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
@@ -1414,8 +1494,8 @@
         <entry key="sellit">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-1631072913" />
-              <option name="pluginDependenciesCrc" value="1682136675" />
+              <option name="buildConfigCrc" value="218217223" />
+              <option name="pluginDependenciesCrc" value="1091178044" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="C:\Users\mark.mazzitello\.grails\2.4.4\global-plugins" />
