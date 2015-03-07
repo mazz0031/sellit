@@ -10,10 +10,10 @@ class AccountPage extends Page {
     static url = 'account/get'
 
     static content = {
-        id { $("id") }
-        name { $("name") }
-        password { $("password") }
-        email { $("email") }
+        id { $("#id") }
+        name { $("#name") }
+        password { $("#password") }
+        email { $("#email") }
     }
 
 }

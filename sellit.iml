@@ -29,7 +29,6 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/domain" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/functional" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
@@ -164,6 +163,7 @@
           <root url="jar://$USER_HOME$/.gvm/grails/current/lib/org.apache.ant/ant-trax/jars/ant-trax-1.7.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/modules/remote/remote-core/0.5/remote-core-0.5.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/modules/remote/remote-transport-http/0.5/remote-transport-http-0.5.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.31.0/selenium-firefox-driver-2.31.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
