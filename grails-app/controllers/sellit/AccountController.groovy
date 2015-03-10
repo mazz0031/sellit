@@ -1,14 +1,17 @@
 package sellit
 
 import grails.transaction.Transactional
+import grails.plugin.springsecurity.annotation.Secured
 
 import static org.springframework.http.HttpStatus.*
+
 
 @Transactional(readOnly = true)
 class AccountController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+    @Secured(value=["hasRole('ADMIN')"])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Account.list(params), model: [accountInstanceCount: Account.count()]

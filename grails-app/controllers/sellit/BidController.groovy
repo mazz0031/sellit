@@ -52,20 +52,6 @@ class BidController {
         }
     }
 
-    def edit(Bid bidInstance) {
-        respond bidInstance
-    }
-
-    protected void notFound() {
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.not.found.message', args: [message(code: 'bid.label', default: 'Bid'), params.id])
-                redirect action: "index", method: "GET"
-            }
-            '*'{ render status: NOT_FOUND }
-        }
-    }
-
     protected boolean bidIsValid(Bid bid) {
         if (bid.listedItem) {
             def bids = Bid.where { listedItem.id == bid.listedItem.id }.toList()

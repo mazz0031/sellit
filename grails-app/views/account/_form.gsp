@@ -25,7 +25,7 @@
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: accountInstance, field: 'address', 'error')} required">
-    <label for="address">
+    <label for="address.id">
         <g:message code="account.address.label" default="Address"/>
         <span class="required-indicator">*</span>
     </label>

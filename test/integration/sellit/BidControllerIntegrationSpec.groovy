@@ -1,7 +1,9 @@
 package sellit
 
+import grails.test.mixin.TestFor
 import spock.lang.Specification
 
+@TestFor(BidController)
 class BidControllerIntegrationSpec extends Specification {
 
     def address
@@ -31,19 +33,19 @@ class BidControllerIntegrationSpec extends Specification {
         Bid.get(bid.id).bidAmount == 102
     }
 
-    /*def 'saving bid not more than .50 greater than highest bid fails validation'() {
+    def 'saving bid not more than .50 greater than highest bid fails validation'() {
         setup:
         def bid = new Bid(listedItem: listing, bidAmount: 110, biddingAccount: account)
-        bid.save(failOnError: true)
+        controller.save(bid)
         def badBid = new Bid(listedItem: listing, bidAmount: 110.10, biddingAccount: account)
 
         when:
-        def result = badBid.save()
+        //badBid.save()
+        controller.save(badBid)
 
         then:
-        !result
         badBid.hasErrors()
-    }*/
+    }
 
     def 'creating Bid with missing parameters fails validation'() {
         setup:
