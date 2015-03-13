@@ -11,8 +11,7 @@ class AccountPage extends Page {
 
     static content = {
         id { $("#id") }
-        name { $("#name") }
-        password { $("#password") }
+        username { $("#username") }
         email { $("#email") }
     }
 

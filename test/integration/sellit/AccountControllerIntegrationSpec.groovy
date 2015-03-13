@@ -13,7 +13,7 @@ class AccountControllerIntegrationSpec extends Specification {
 
     def 'saving Account persists new Account in database'() {
         setup:
-        def account = new Account(name: "Joe Rockhead", password: "aaaa1234", email: "chief@bedrockfd.gov", address: address)
+        def account = new Account(username: "Joe Rockhead", password: "aaaa1234", email: "chief@bedrockfd.gov", address: address)
 
         when:
         account.save(failOnError: true)
@@ -27,7 +27,7 @@ class AccountControllerIntegrationSpec extends Specification {
 
     def 'updating Account data updates the database'() {
         setup:
-        def account = new Account(name: "Barney Rubble", password: "aaaa1234", email: "brubble@gmail.com", address: address)
+        def account = new Account(username: "Barney Rubble", password: "aaaa1234", email: "brubble@gmail.com", address: address)
         account.save(failOnError: true)
 
         when:
@@ -41,7 +41,7 @@ class AccountControllerIntegrationSpec extends Specification {
 
     def 'creating Account with invalid password fails validation'() {
         setup:
-        def account = new Account(name: "Fred Flintstone", password: "nogood", email: "fred@gmail.com", address: address)
+        def account = new Account(username: "Fred Flintstone", password: "nogood", email: "fred@gmail.com", address: address)
 
         when:
         def result = account.save()
@@ -65,7 +65,7 @@ class AccountControllerIntegrationSpec extends Specification {
 
     def 'deleting Account removes it from the database'() {
         setup:
-        def account = new Account(name: "Pearl Slaghoople", password: "aaaa1234", email: "pearl@gmail.com", address: address)
+        def account = new Account(username: "Pearl Slaghoople", password: "aaaa1234", email: "pearl@gmail.com", address: address)
         account.save(failOnError: true)
 
         when:

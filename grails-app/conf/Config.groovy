@@ -116,6 +116,9 @@ log4j.main = {
            'net.sf.ehcache.hibernate'
 }
 
+// Enable access by default
+grails.plugin.springsecurity.rejectIfNoRule = false
+grails.plugin.springsecurity.fii.rejectPublicInvocations = false
 
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'sellit.Account'

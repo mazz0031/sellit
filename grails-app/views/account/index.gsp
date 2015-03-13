@@ -24,11 +24,9 @@
 			<thead>
 					<tr>
 					
-						<g:sortableColumn property="name" title="${message(code: 'account.name.label', default: 'Name')}" />
+						<g:sortableColumn property="name" title="${message(code: 'account.username.label', default: 'Username')}" />
 					
 						<g:sortableColumn property="email" title="${message(code: 'account.email.label', default: 'Email')}" />
-					
-						<g:sortableColumn property="password" title="${message(code: 'account.password.label', default: 'Password')}" />
 					
 						<th><g:message code="account.address.label" default="Address" /></th>
 					
@@ -38,11 +36,9 @@
 				<g:each in="${accountInstanceList}" status="i" var="accountInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${accountInstance.id}">${fieldValue(bean: accountInstance, field: "name")}</g:link></td>
+						<td><g:link action="show" id="${accountInstance.id}">${fieldValue(bean: accountInstance, field: "username")}</g:link></td>
 					
 						<td>${fieldValue(bean: accountInstance, field: "email")}</td>
-					
-						<td>${fieldValue(bean: accountInstance, field: "password")}</td>
 					
 						<td>${fieldValue(bean: accountInstance, field: "address.addressLine1")}</td>
 					

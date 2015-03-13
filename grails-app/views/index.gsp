@@ -57,6 +57,7 @@
 
 			#controller-list ul {
 				list-style-position: inside;
+                list-style-type: none;
 			}
 
 			#controller-list li {
@@ -103,18 +104,28 @@
 			</ul>
 		</div>
 		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+			<h1>Welcome to Sellit.com</h1>
+			<p></p>
 
 			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
+				<h2>Links to stuff:</h2>
 				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
+                    <li>Account</li>
+                    <li><g:link controller="account" action="index">View Account List</g:link></li>
+                    <li><g:link controller="account" action="create">Create an Account</g:link></li>
+                    <li>Address</li>
+                    <li><g:link controller="address" action="index">View Address List</g:link></li>
+                    <li><g:link controller="address" action="create">Create an Address</g:link></li>
+                    <li>Listing</li>
+                    <li><g:link controller="listing" action="index">View Listings</g:link></li>
+                    <li><g:link controller="listing" action="create">Create a new Listing</g:link></li>
+
+
+
+
+                    %{--<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">--}%
+						%{--<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>--}%
+					%{--</g:each>--}%
 				</ul>
 			</div>
 		</div>

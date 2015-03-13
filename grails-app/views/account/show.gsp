@@ -24,10 +24,10 @@
     </g:if>
     <ol class="property-list account">
 
-        <g:if test="${account?.name}">
+        <g:if test="${account?.username}">
             <li class="fieldcontain">
-                <span id="name-label" class="property-label"><g:message code="account.name.label" default="Name"/></span>
-                <span id="name" class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${account}" field="name"/></span>
+                <span id="username-label" class="property-label"><g:message code="account.username.label" default="Username"/></span>
+                <span id="username" class="property-value" aria-labelledby="username-label"><g:fieldValue bean="${account}" field="username"/></span>
             </li>
         </g:if>
 
@@ -35,13 +35,6 @@
             <li class="fieldcontain">
                 <span id="email-label" class="property-label"><g:message code="account.email.label" default="Email"/></span>
                 <span id="email" class="property-value" aria-labelledby="email-label"><g:fieldValue bean="${account}" field="email"/></span>
-            </li>
-        </g:if>
-
-        <g:if test="${account?.password}">
-            <li class="fieldcontain">
-                <span id="password-label" class="property-label"><g:message code="account.password.label" default="Password"/></span>
-                <span id="password" class="property-value" aria-labelledby="password-label"><g:fieldValue bean="${account}" field="password"/></span>
             </li>
         </g:if>
 
@@ -66,33 +59,31 @@
             </li>
         </g:if>
 
-
-            <li class="fieldcontain">
-                <span id="ReviewList-label" class="property-label"><g:message code="account.ReviewList" default="Review List"/></span>
-                <span class="property-value" aria-labelledby="ReviewList-label">
-                    <table>
-                        <thead>
-                        <tr>
-                            <th><g:message code="review.listedItem.label" default="Listed Item"/></th>
-                            <g:sortableColumn property="wasSeller" title="${message(code: 'review.wasSeller.label', default: 'Was Seller')}"/>
-                            <g:sortableColumn property="reviewDescription" title="${message(code: 'review.reviewDescription.label', default: 'Review Description')}"/>
-                            <g:sortableColumn property="thumbsUp" title="${message(code: 'review.thumbsUp.label', default: 'Thumbs Up')}"/>
+        <li class="fieldcontain">
+            <span id="ReviewList-label" class="property-label"><g:message code="account.ReviewList" default="Review List"/></span>
+            <span class="property-value" aria-labelledby="ReviewList-label">
+                <table>
+                    <thead>
+                    <tr>
+                        <th><g:message code="review.listedItem.label" default="Listed Item"/></th>
+                        <g:sortableColumn property="wasSeller" title="${message(code: 'review.wasSeller.label', default: 'Was Seller')}"/>
+                        <g:sortableColumn property="reviewDescription" title="${message(code: 'review.reviewDescription.label', default: 'Review Description')}"/>
+                        <g:sortableColumn property="thumbsUp" title="${message(code: 'review.thumbsUp.label', default: 'Thumbs Up')}"/>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <g:each in="${reviews}" status="i" var="reviewInstance">
+                        <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
+                            <td><g:link action="show" id="${reviewInstance.id}">${fieldValue(bean: reviewInstance, field: "listedItem.name")}</g:link></td>
+                            <td><g:formatBoolean boolean="${reviewInstance.wasSeller}"/></td>
+                            <td>${fieldValue(bean: reviewInstance, field: "reviewDescription")}</td>
+                            <td><g:formatBoolean boolean="${reviewInstance.thumbsUp}"/></td>
                         </tr>
-                        </thead>
-                        <tbody>
-                        <g:each in="${reviews}" status="i" var="reviewInstance">
-                            <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-                                <td><g:link action="show" id="${reviewInstance.id}">${fieldValue(bean: reviewInstance, field: "listedItem.name")}</g:link></td>
-                                <td><g:formatBoolean boolean="${reviewInstance.wasSeller}"/></td>
-                                <td>${fieldValue(bean: reviewInstance, field: "reviewDescription")}</td>
-                                <td><g:formatBoolean boolean="${reviewInstance.thumbsUp}"/></td>
-                            </tr>
-                        </g:each>
-                        </tbody>
-                    </table>
-                </span>
-            </li>
-
+                    </g:each>
+                    </tbody>
+                </table>
+            </span>
+        </li>
 
     </ol>
     <g:form url="[resource: accountInstance, action: 'delete']" method="DELETE">

@@ -1,11 +1,11 @@
 <%@ page import="sellit.Account" %>
 
-<div class="fieldcontain ${hasErrors(bean: accountInstance, field: 'name', 'error')} required">
+<div class="fieldcontain ${hasErrors(bean: accountInstance, field: 'username', 'error')} required">
     <label for="name">
-        <g:message code="account.name.label" default="Name"/>
+        <g:message code="account.username.label" default="Username"/>
         <span class="required-indicator">*</span>
     </label>
-    <g:textField name="name" required="" value="${accountInstance?.name}"/>
+    <g:textField name="username" required="" value="${accountInstance?.username}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: accountInstance, field: 'email', 'error')} required">

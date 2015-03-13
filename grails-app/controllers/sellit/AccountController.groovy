@@ -11,7 +11,6 @@ class AccountController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-    @Secured(value=["hasRole('ADMIN')"])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Account.list(params), model: [accountInstanceCount: Account.count()]
@@ -47,7 +46,10 @@ class AccountController {
             respond accountInstance, view: 'create'
             return
         }
-        accountInstance.save flush: true
+        accountInstance.save(flush: true, failOnError: true)
+
+        Role role = Role.findByAuthority('ROLE_USER')
+        new AccountRole(account: accountInstance, role: role).save(failOnError: true)
 
         request.withFormat {
             form multipartForm {
@@ -114,7 +116,7 @@ class AccountController {
         }
     }
 
-    boolean validatePassword(String pass) {
+    protected boolean validatePassword(String pass) {
         return (pass) && (pass =~ /\p{Alpha}/) && (pass =~ /\p{Digit}/)
     }
 }
