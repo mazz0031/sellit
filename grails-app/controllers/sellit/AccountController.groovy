@@ -1,122 +1,32 @@
 package sellit
 
-import grails.transaction.Transactional
 import grails.plugin.springsecurity.annotation.Secured
+import grails.rest.RestfulController
+import grails.web.JSONBuilder
 
 import static org.springframework.http.HttpStatus.*
+import grails.transaction.Transactional
+import grails.converters.JSON
 
+/**
+ * Created by mark.mazzitello on 3/28/2015.
+ */
+class AccountController extends RestfulController<Account> {
+    static responseFormats = ['json']
 
-@Transactional(readOnly = true)
-class AccountController {
+    def springSecurityService
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
-
-    def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Account.list(params), model: [accountInstanceCount: Account.count()]
+    AccountController() {
+        super(Account);
     }
 
-    def show(Account accountInstance) {
-        def reviewInstanceList = Review.where { reviewedAccount == accountInstance }.toList()
-        return [account: accountInstance, reviews: reviewInstanceList]
+    @Secured(closure = {
+        def username = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
+        authentication.principal.username == username
+    }, httpMethod = 'GET')
+    def show() {
+        [springSecurityService.currentUser as Account]
     }
 
-    def create() {
-        respond new Account(params)
-    }
 
-    def get() {
-        def account = Account.get(params.id)
-        if (!account) {
-            response.sendError(404)
-        } else {
-            [account: account]
-        }
-    }
-
-    @Transactional
-    def save(Account accountInstance) {
-        if (accountInstance == null) {
-            notFound()
-            return
-        }
-
-        accountInstance.validate()
-        if (accountInstance.hasErrors()) {
-            respond accountInstance, view: 'create'
-            return
-        }
-        accountInstance.save(flush: true, failOnError: true)
-
-        Role role = Role.findByAuthority('ROLE_USER')
-        new AccountRole(account: accountInstance, role: role).save(failOnError: true)
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'account.label', default: 'Account'), accountInstance.id])
-                redirect accountInstance
-            }
-            '*' { respond accountInstance, [status: CREATED] }
-        }
-    }
-
-    def edit(Account accountInstance) {
-        respond accountInstance
-    }
-
-    @Transactional
-    def update(Account accountInstance) {
-        if (accountInstance == null) {
-            notFound()
-            return
-        }
-
-        if (accountInstance.hasErrors()) {
-            respond accountInstance.errors, view: 'edit'
-            return
-        }
-
-        accountInstance.save flush: true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'account.label', default: 'Account'), accountInstance.id])
-                redirect accountInstance
-            }
-            '*' { respond accountInstance, [status: OK] }
-        }
-    }
-
-    @Transactional
-    def delete(Account accountInstance) {
-
-        if (accountInstance == null) {
-            notFound()
-            return
-        }
-
-        accountInstance.delete flush: true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'Account.label', default: 'Account'), accountInstance.id])
-                redirect action: "index", method: "GET"
-            }
-            '*' { render status: NO_CONTENT }
-        }
-    }
-
-    protected void notFound() {
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.not.found.message', args: [message(code: 'account.label', default: 'Account'), params.id])
-                redirect action: "index", method: "GET"
-            }
-            '*' { render status: NOT_FOUND }
-        }
-    }
-
-    protected boolean validatePassword(String pass) {
-        return (pass) && (pass =~ /\p{Alpha}/) && (pass =~ /\p{Digit}/)
-    }
 }

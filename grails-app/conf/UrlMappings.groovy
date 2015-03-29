@@ -7,15 +7,20 @@ class UrlMappings {
             }
         }
 
-//        "/$controller/$id?"{
-//            action = [GET:"show", POST:"save", PUT:"update", DELETE:"delete"]
-//        }
+        "/$controller/$id?"{
+            action = [GET:"show", POST:"save", PUT:"update", DELETE:"delete"]
+        }
 
         "/"(view:"/index")
         "500"(view:'/error')
 
         // RESTService api
         "/api/role"(resources: 'role')
+        "/api/addresses"(resources: 'address')
+        "/api/accounts"(resources: 'account')
+        "/api/listings"(resources: 'listing')
+        "/api/bids"(resources: 'bid')
+        "/api/reviews"(resources: 'review')
 	}
 }
 

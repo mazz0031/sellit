@@ -2,7 +2,8 @@ package sellit
 
 import geb.spock.GebSpec
 import grails.plugin.remotecontrol.RemoteControl
-import sellit.pages.AccountPage
+import sellit.pages.LoginPage
+import spock.lang.Specification
 import spock.lang.Stepwise
 
 
@@ -13,41 +14,51 @@ import spock.lang.Stepwise
 @Stepwise
 class AccountFunctionalSpec extends GebSpec {
 
-    def remote = new RemoteControl()
+    @Delegate static FunctionalTestUtils utils = new FunctionalTestUtils()
 
-    def accountId
-//    def addressId
-
-    void setup() {
-        /*addressId = remote {
-            def address = new Address(addressLine1: "123 Main Street", city: "Bedrock", stateAbbr: "CA", postalCode: "12345")
-            address.save(failOnError: true)
-            address.id
-        }*/
-
-        accountId = remote {
-            def address = new Address(addressLine1: "123 Main Street", city: "Bedrock", stateAbbr: "CA", postalCode: "12345")
-            address.save(failOnError: true)
-
-            def account = new Account(username: "Joe Rockhead", email: "chief@bedrockfd.gov", password: "abcd1234", address: address)
-            account.save(failOnError: true)
-            account.id
-        }
-    }
-
-    void cleanup() {
+    def setupSpec() {
+        def remote = new SellitRemoteControl()
         remote {
+            def address = new Address(addressLine1: "123 Main Street", city: "Bedrock", stateAbbr: "CA", postalCode: "12345")
+            address.save(flush: true, failOnError: true)
+            def account = new Account(username: 'account-test', email: 'test@me.com', password: 'password1', address: address)
+            account.save(flush: true, failOnError: true)
+            AccountRole.create(account, Role.findByAuthority('USER_ROLE'), true)
+            return account.id
+        }
+        to LoginPage
+        login('account-test', 'password1')
+    }
+
+    def cleanupSpec() {
+        def remote = new SellitRemoteControl()
+        remote {
+            Account.findByUsername('account-test').delete()
             Account.findByUsername('Joe Rockhead').delete()
-            Address.findByAddressLine1('123 Main Street').delete()
         }
     }
 
-    def "get account info"() {
-        when:
-        to AccountPage, id: accountId
 
-        then:
-        username.text() == "Joe Rockhead"
-        email.text() == "chief@bedrockfd.gov"
+
+    def "create an Account (login obviously not required)"() {
+        when: 'REST call is made to Account Save api'
+        def resp = doJsonPost('api/accounts', [username: "Joe Rockhead", email: "chief@bedrockfd.gov", password: "password1", address: [id: "1"]])
+
+        then: 'Server returns a status of Created'
+        resp.status == 201
+
+        and: 'The saved Account has an id value'
+        resp.data.id
+    }
+
+    def "get account details (logged in as requested Account)" () {
+        when: 'REST call is made to Account Get api for known Account'
+        def resp = doGet('api/accounts/test-user')
+
+        then: 'server returns a status of OK'
+        resp.status == 200
+
+        and: 'The returned Account is the one asked for'
+        resp.data.username == 'account-test'
     }
 }

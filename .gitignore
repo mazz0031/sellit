@@ -30,3 +30,7 @@
 /target
 *.ipr
 *.iws
+
+# bower components
+/node_modules 
+/grails-app/assets/bower_components
