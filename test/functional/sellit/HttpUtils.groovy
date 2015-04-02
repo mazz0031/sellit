@@ -12,6 +12,7 @@ import org.apache.http.client.config.RequestConfig
 import org.apache.http.client.entity.UrlEncodedFormEntity
 import org.apache.http.client.methods.HttpGet
 import org.apache.http.client.methods.HttpPost
+import org.apache.http.client.methods.HttpPut
 import org.apache.http.client.methods.HttpUriRequest
 import org.apache.http.client.protocol.HttpClientContext
 import org.apache.http.entity.StringEntity
@@ -69,12 +70,15 @@ class HttpUtils {
         return performRequest(request)
     }
 
-    // ToDo:  create method to submit JSON data via PUT
-
-    // ToDo:  create method to submit JSON DELETE
-
-
-
+    // Use this method to submit JSON data via a PUT
+    def doJsonPut(String path, Object data) {
+        String url = SellitRemoteControl.functionalTestBaseUrl + path
+        def request = new HttpPut(url)
+        def entity = new StringEntity(JsonOutput.toJson(data), 'UTF8')
+        entity.setContentType('application/json')
+        request.setEntity(entity)
+        return performRequest(request)
+    }
 
     def performRequest(HttpUriRequest request) {
         HttpClientContext context = HttpClientContext.create()

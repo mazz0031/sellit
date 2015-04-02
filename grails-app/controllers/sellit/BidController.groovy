@@ -1,70 +1,43 @@
 package sellit
 
-
+import grails.plugin.springsecurity.annotation.Secured
+import grails.rest.RestfulController
+import grails.web.JSONBuilder
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
+import grails.converters.JSON
 
-@Transactional(readOnly = true)
-class BidController {
+import org.springframework.security.core.context.SecurityContextHolder
 
+
+/**
+ * Created by mark.mazzitello on 3/28/2015.
+ */
+class BidController extends RestfulController<Bid> {
     static allowedMethods = [save: "POST"]
+    static responseFormats = ['json']
 
-    def index(Integer max, Integer listedItemID) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Bid.where { listedItem.id == listedItemID }.toList(), model:[bidInstanceCount: Bid.where { listedItem.id == listedItemID }.count()]
+    def springSecurityService
+
+    BidController() {
+        super(Bid);
     }
 
-    def show(Bid bidInstance) {
-        respond bidInstance
-    }
-
-    def create(Integer listedItemID) {
-        def newBid = new Bid(listedItem: Listing.get(listedItemID))
-        respond newBid
-    }
-
-    @Transactional
-    def save(Bid bidInstance) {
-        if (bidInstance == null) {
-            notFound()
+    @Secured(closure = {
+        authentication.principal.username != "__grails.anonymous.user__"
+    }, httpMethod = 'POST')
+    def save() {
+        def bid = createResource();
+        def account = springSecurityService.currentUser as Account
+        bid.biddingAccount = account
+        bid.validate()
+        if (bid.hasErrors()) {
+            respond bid.errors, view:'edit'
             return
         }
-
-        if (!bidIsValid(bidInstance)) {
-            bidInstance.errors.rejectValue("bidAmount", "bid is not valid")
-        }
-
-        if (bidInstance.hasErrors()) {
-            respond bidInstance.errors, view:'create'
-            return
-        }
-
-        bidInstance.save flush:true
-        updateListingHighBid(bidInstance)
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'bid.label', default: 'Bid'), bidInstance.id])
-                redirect bidInstance
-            }
-            '*' { respond bidInstance, [status: CREATED] }
-        }
+        bid.save(flush: true)
+        respond bid
     }
 
-    protected boolean bidIsValid(Bid bid) {
-        if (bid.listedItem) {
-            def bids = Bid.where { listedItem.id == bid.listedItem.id }.toList()
-            if ((bids.size() == 0 && bid.bidAmount >= bid.listedItem.startingPrice) || (bid.bidAmount >= bids.bidAmount.max() + 0.5)) {
-                return true
-            }
-        }
-        return false
-    }
-
-    protected void updateListingHighBid(Bid bid) {
-        bid.listedItem.currentHighBid = bid.bidAmount
-        bid.listedItem.highBidAccount = bid.biddingAccount
-        bid.listedItem.save(failOnError: true)
-    }
 }

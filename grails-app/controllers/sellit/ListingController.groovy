@@ -1,128 +1,75 @@
 package sellit
 
-import org.h2.api.DatabaseEventListener
+import grails.plugin.springsecurity.annotation.Secured
+import grails.rest.RestfulController
+import grails.web.JSONBuilder
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
-import groovy.time.TimeCategory
+import grails.converters.JSON
 
-@Transactional(readOnly = true)
-class ListingController {
+import org.springframework.security.core.context.SecurityContextHolder
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-    def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        def now = new Date()
-        def results = Listing.where {endDate >= now}
-        respond results.list(params), model: [listingInstanceCount: results.size()], view: 'index'
+/**
+ * Created by mark.mazzitello on 3/28/2015.
+ */
+class ListingController extends RestfulController<Listing> {
+    static allowedMethods = [update: "PUT", save: "POST", delete: "DELETE"]
+    static responseFormats = ['json']
+
+    def springSecurityService
+
+    ListingController() {
+        super(Listing);
     }
 
-    def show(Listing listingInstance) {
-        respond listingInstance
-    }
-
-    def create() {
-        respond new Listing(params)
-    }
-
-    def search(String searchTerm, boolean showCompleted, Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        def now = new Date()
-        if (showCompleted) {
-            def results = Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate < now}
-            respond results.list(params), model: [listingInstanceCount: results.size()], view: 'index'
-        }
-        else {
-            def results = Listing.where {(name =~ "%${params.searchTerm}%" || description =~ "%${params.searchTerm}%") && endDate >= now}
-            respond results.list(params), model: [listingInstanceCount: results.size()], view: 'index'
-        }
-    }
-
-    @Transactional
-    def save(Listing listingInstance) {
-        if (listingInstance == null) {
-            notFound()
+    @Secured(closure = {
+        authentication.principal.username != "__grails.anonymous.user__"
+    }, httpMethod = 'POST')
+    def save() {
+        def listing = createResource();
+        def account = springSecurityService.currentUser as Account
+        listing.sellerAccount = account
+        listing.validate()
+        if (listing.hasErrors()) {
+            respond listing.errors, view:'edit'
             return
         }
+        listing.save(flush: true)
+        respond listing
+    }
 
-        setEndDate(listingInstance)
-
-        if (listingInstance.hasErrors()) {
-            respond listingInstance.errors, view: 'create'
+    @Secured(closure = {
+        def listingId = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
+        def account = Listing.findById(listingId.toInteger()).sellerAccount
+        authentication.principal.username == account.username
+    }, httpMethod = 'PUT')
+    def update() {
+        def listing = Listing.findById(params.id)
+        listing.properties = getObjectToBind()
+        listing.validate()
+        if (listing.hasErrors()) {
+            respond listing.errors, view:'edit'
             return
         }
-
-        listingInstance.save flush: true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'listing.label', default: 'Listing'), listingInstance.id])
-                redirect listingInstance
-            }
-            '*' { respond listingInstance, [status: CREATED] }
-        }
+        listing.save(flush: true)
+        respond listing
     }
 
-    def edit(Listing listingInstance) {
-        respond listingInstance
-    }
-
-    @Transactional
-    def update(Listing listingInstance) {
-        if (listingInstance == null) {
-            notFound()
+    @Secured(closure = {
+        def listingId = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
+        def account = Listing.findById(listingId.toInteger()).sellerAccount
+        authentication.principal.username == account.username
+    }, httpMethod = 'DELETE')
+    def delete() {
+        def listing = Listing.findById(params.id)
+        if (listing == null)
+        {
             return
         }
-
-        setEndDate(listingInstance)
-
-        if (listingInstance.hasErrors()) {
-            respond listingInstance.errors, view: 'edit'
-            return
-        }
-
-        listingInstance.save flush: true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'Listing.label', default: 'Listing'), listingInstance.id])
-                redirect listingInstance
-            }
-            '*' { respond listingInstance, [status: OK] }
-        }
+        listing.delete(flish: true)
+        redirect action:"index", method:"GET"
     }
 
-    @Transactional
-    def delete(Listing listingInstance) {
-
-        if (listingInstance == null) {
-            notFound()
-            return
-        }
-
-        listingInstance.delete flush: true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'Listing.label', default: 'Listing'), listingInstance.id])
-                redirect action: "index", method: "GET"
-            }
-            '*' { render status: NO_CONTENT }
-        }
-    }
-
-    protected void notFound() {
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.not.found.message', args: [message(code: 'listing.label', default: 'Listing'), params.id])
-                redirect action: "index", method: "GET"
-            }
-            '*' { render status: NOT_FOUND }
-        }
-    }
-
-    protected void setEndDate(Listing listingInstance) {
-        listingInstance.endDate = listingInstance.startDate.plus(listingInstance.listingDays)
-    }
 }

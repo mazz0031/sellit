@@ -34,15 +34,13 @@ class AccountFunctionalSpec extends GebSpec {
         def remote = new SellitRemoteControl()
         remote {
             Account.findByUsername('account-test').delete()
-            Account.findByUsername('Joe Rockhead').delete()
+            Account.findByUsername('Joe-Rockhead').delete()
         }
     }
 
-
-
     def "create an Account (login obviously not required)"() {
-        when: 'REST call is made to Account Save api'
-        def resp = doJsonPost('api/accounts', [username: "Joe Rockhead", email: "chief@bedrockfd.gov", password: "password1", address: [id: "1"]])
+        when: 'REST call is made to Account Save (POST) api'
+        def resp = doJsonPost('api/accounts', [username: "Joe-Rockhead", email: "chief@bedrockfd.gov", password: "password1", address: [id: "1"]])
 
         then: 'Server returns a status of Created'
         resp.status == 201
@@ -52,13 +50,40 @@ class AccountFunctionalSpec extends GebSpec {
     }
 
     def "get account details (logged in as requested Account)" () {
-        when: 'REST call is made to Account Get api for known Account'
-        def resp = doGet('api/accounts/test-user')
+        when: 'REST call is made to Account GET api for known Account'
+        def resp = doGet('api/accounts/account-test')
 
         then: 'server returns a status of OK'
         resp.status == 200
 
         and: 'The returned Account is the one asked for'
         resp.data.username == 'account-test'
+    }
+
+    def "cannot access account details for different user" () {
+        when: 'REST call is made to Account GET api for other Account'
+        def resp = doGet('api/accounts/Joe-Rockhead')
+
+        then: 'server returns a status of Unauthorized'
+        resp.status == 403
+    }
+
+    def "update account email (logged in as requested Account)" () {
+        when: 'REST call is made to Account PUT api for known Account'
+        def resp = doJsonPut('api/accounts/account-test', [email: 'test@yahoo.com'])
+
+        then: 'server returns a status of OK'
+        resp.status == 200
+
+        and: 'The returned Account has the updated email'
+        resp.data.email == 'test@yahoo.com'
+    }
+
+    def "update account email denied for different user" () {
+        when: 'REST call is made to Account PUT api for other Account'
+        def resp = doJsonPut('api/accounts/Joe-Rockhead', [email: 'test@yahoo.com'])
+
+        then: 'server returns a status of OK'
+        resp.status == 403
     }
 }
