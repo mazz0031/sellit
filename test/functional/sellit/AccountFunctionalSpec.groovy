@@ -1,11 +1,7 @@
 package sellit
 
 import geb.spock.GebSpec
-import grails.plugin.remotecontrol.RemoteControl
-import sellit.pages.LoginPage
-import spock.lang.Specification
 import spock.lang.Stepwise
-
 
 /**
  * Created by mark.mazzitello on 2/21/2015.
@@ -14,7 +10,7 @@ import spock.lang.Stepwise
 @Stepwise
 class AccountFunctionalSpec extends GebSpec {
 
-    @Delegate static FunctionalTestUtils utils = new FunctionalTestUtils()
+    @Delegate static HttpUtils httpUtils = new HttpUtils()
 
     def setupSpec() {
         def remote = new SellitRemoteControl()
@@ -24,10 +20,10 @@ class AccountFunctionalSpec extends GebSpec {
             def account = new Account(username: 'account-test', email: 'test@me.com', password: 'password1', address: address)
             account.save(flush: true, failOnError: true)
             AccountRole.create(account, Role.findByAuthority('USER_ROLE'), true)
-            return account.id
+            return 1
         }
-        to LoginPage
-        login('account-test', 'password1')
+        def response = httpUtils.doFormPost('j_spring_security_check', [j_username: 'account-test', j_password: 'password1'])
+        assert response.status == 302
     }
 
     def cleanupSpec() {
@@ -38,7 +34,7 @@ class AccountFunctionalSpec extends GebSpec {
         }
     }
 
-    def "create an Account (login obviously not required)"() {
+    def "create an Account (login not required)"() {
         when: 'REST call is made to Account Save (POST) api'
         def resp = doJsonPost('api/accounts', [username: "Joe-Rockhead", email: "chief@bedrockfd.gov", password: "password1", address: [id: "1"]])
 
@@ -85,5 +81,13 @@ class AccountFunctionalSpec extends GebSpec {
 
         then: 'server returns a status of OK'
         resp.status == 403
+    }
+
+    def "deleting an account is not permitted (for any account)" () {
+        when: 'REST call is made to Account DELETE api'
+        def resp = doJsonDelete('api/accounts/Joe-Rockhead')
+
+        then: 'server returns a status of 401'
+        resp.status == 401
     }
 }

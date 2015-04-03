@@ -9,7 +9,7 @@ import grails.converters.JSON
 class AddressController extends RestfulController<Address> {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "DELETE"]
-    static responseFormats = ['json', 'xml']
+    static responseFormats = ['json']
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)

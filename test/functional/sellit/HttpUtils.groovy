@@ -10,6 +10,7 @@ import org.apache.http.client.CookieStore
 import org.apache.http.client.config.CookieSpecs
 import org.apache.http.client.config.RequestConfig
 import org.apache.http.client.entity.UrlEncodedFormEntity
+import org.apache.http.client.methods.HttpDelete
 import org.apache.http.client.methods.HttpGet
 import org.apache.http.client.methods.HttpPost
 import org.apache.http.client.methods.HttpPut
@@ -77,6 +78,13 @@ class HttpUtils {
         def entity = new StringEntity(JsonOutput.toJson(data), 'UTF8')
         entity.setContentType('application/json')
         request.setEntity(entity)
+        return performRequest(request)
+    }
+
+    // Use this method to submit JSON data via a DELETE
+    def doJsonDelete(String path) {
+        String url = SellitRemoteControl.functionalTestBaseUrl + path
+        def request = new HttpDelete(url)
         return performRequest(request)
     }
 

@@ -40,13 +40,18 @@ class ListingController extends RestfulController<Listing> {
         respond listing
     }
 
-    @Secured(closure = {
-        def listingId = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
-        def account = Listing.findById(listingId.toInteger()).sellerAccount
-        authentication.principal.username == account.username
-    }, httpMethod = 'PUT')
+    //ToDo: figure out how to get the seller account username from the listingID at the end of the URL to compare here
+//    @Secured(closure = {
+//        def listingId = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
+//        def account = Listing.findById(listingId.toInteger()).sellerAccount
+//        authentication.principal.username == account.username
+//    }, httpMethod = 'PUT')
     def update() {
         def listing = Listing.findById(params.id)
+        if (listing.sellerAccount != springSecurityService.currentUser as Account) {
+            response.sendError(401, 'only the seller is permitted to update a listing')
+            return
+        }
         listing.properties = getObjectToBind()
         listing.validate()
         if (listing.hasErrors()) {
@@ -57,19 +62,25 @@ class ListingController extends RestfulController<Listing> {
         respond listing
     }
 
-    @Secured(closure = {
-        def listingId = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
-        def account = Listing.findById(listingId.toInteger()).sellerAccount
-        authentication.principal.username == account.username
-    }, httpMethod = 'DELETE')
+    //ToDo: figure out how to get the seller account username from the listingID at the end of the URL to compare here
+//    @Secured(closure = {
+//        def listingId = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
+//        def account = Listing.findById(listingId.toInteger()).sellerAccount
+//        authentication.principal.username == account.username
+//    }, httpMethod = 'DELETE')
     def delete() {
         def listing = Listing.findById(params.id)
         if (listing == null)
         {
             return
         }
-        listing.delete(flish: true)
-        redirect action:"index", method:"GET"
+        if (listing.sellerAccount != springSecurityService.currentUser as Account) {
+            response.sendError(401, 'only the seller is permitted to delete a listing')
+            return
+        }
+        //ToDo: figure out why the f**k delete doesn't work here
+        listing.delete()
+        respond Listing.list()
     }
 
 }

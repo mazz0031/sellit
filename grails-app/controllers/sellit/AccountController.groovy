@@ -22,6 +22,7 @@ class AccountController extends RestfulController<Account> {
         super(Account);
     }
 
+    //ToDo: figure out how to get the account username from the ID on the end of the URL inside the closure (so I don't have to pass the username as the parameter)
     @Secured(closure = {
         def username = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
         authentication.principal.username == username
@@ -31,6 +32,7 @@ class AccountController extends RestfulController<Account> {
         respond Account.findByUsername(username)
     }
 
+    //ToDo: figure out how to get the account username from the ID on the end of the URL inside the closure (so I don't have to pass the username as the parameter)
     @Secured(closure = {
         def username = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
         authentication.principal.username == username
@@ -48,20 +50,7 @@ class AccountController extends RestfulController<Account> {
         respond account
     }
 
-    @Secured(closure = {
-        def username = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
-        authentication.principal.username == username
-    }, httpMethod = 'DELETE')
     def delete() {
-        def username = params.id
-        def account = Account.findByUsername(username)
-        if (account == null)
-        {
-            return
-        }
-        account.delete(flish: true)
-        redirect action:"index", method:"GET"
+        response.sendError(401, 'deleting accounts is not permitted')
     }
-
-
 }
