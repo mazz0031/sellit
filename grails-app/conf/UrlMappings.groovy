@@ -16,7 +16,6 @@ class UrlMappings {
 
         // RESTService api
         "/api/role"(resources: 'role')
-        "/api/addresses"(resources: 'address')
         "/api/accounts"(resources: 'account')
         "/api/listings"(resources: 'listing')
         "/api/bids"(resources: 'bid')

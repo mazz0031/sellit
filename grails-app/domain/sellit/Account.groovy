@@ -7,7 +7,10 @@ class Account {
 	String username
 	String password
     String email
-    Address address
+    String address
+	String city
+	String state
+	String postalCode
 	boolean enabled = true
 	boolean accountExpired
 	boolean accountLocked
@@ -19,9 +22,7 @@ class Account {
 
 	static constraints = {
 		username blank: false, unique: true
-		email email: true, blank: false
-        //password password: true, blank: false //, minSize: 8, maxSize: 16, matches: "^.*(?=.*\\d)(?=.*[a-zA-Z]).*\$"
-        address blank: false
+		//password password: true, blank: false //, minSize: 8, maxSize: 16, matches: "^.*(?=.*\\d)(?=.*[a-zA-Z]).*\$"
         password validator: { String password, account ->
             if (password && password.length() >= 8 && password.length() <= 16 &&
                     (!password.matches('^.*\\p{Alpha}.*$') ||
@@ -29,6 +30,11 @@ class Account {
                 return 'user.password.error.username'
             }
         }
+		email email: true, blank: false
+		address nullable: true
+		city nullable: true
+		state nullable: true
+		postalCode nullable: true
 	}
 
 	static mapping = {

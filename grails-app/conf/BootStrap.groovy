@@ -11,7 +11,7 @@ class BootStrap {
             }
             test {
                 setupRoles()
-                createAdminUser()
+                //createAdminUser()
             }
         }
     }
@@ -28,10 +28,7 @@ class BootStrap {
     }
 
     void createAdminUser() {
-        def address = new Address(addressLine1: "11995 Singletree Lane", city: "Eden Prairie", stateAbbr: "MN", postalCode: "55344")
-        address.save(flush: true, failOnError: true)
-
-        def account = new Account(username: "Admin", email: "admin@sellit.com", password: "password1", address: address)
+        def account = new Account(username: "Admin", email: "admin@sellit.com", password: "password1")
         account.save(flush: true, failOnError: true)
         Role.list().each { Role role ->
             new AccountRole(account: account, role: role).save(failOnError: true)
@@ -39,14 +36,9 @@ class BootStrap {
     }
 
     void createSampleData() {
-        def address1 = new Address(addressLine1: "6772 East Fish Lake Road", city: "Maple Grove", stateAbbr: "MN", postalCode: "55369")
-        address1.save(flush: true, failOnError: true)
-        def address2 = new Address(addressLine1: "1810 Jackson Street", city: "St Paul", stateAbbr: "MN", postalCode: "55117")
-        address2.save(failOnError: true)
-
-        def account1 = new Account(username: "Mark", email: "mark@hotmail.com", password: "password1", address: address1)
+        def account1 = new Account(username: "Mark", email: "mark@hotmail.com", password: "password1")
         account1.save(flush: true, failOnError: true)
-        def account2 = new Account(username: "John", email: "john@hotmail.com", password: "password1", address: address2)
+        def account2 = new Account(username: "John", email: "john@hotmail.com", password: "password1")
         account2.save(failOnError: true)
         Role role = Role.findByAuthority('ROLE_USER')
         new AccountRole(account: account1, role: role).save(failOnError: true)
@@ -56,7 +48,7 @@ class BootStrap {
                 listingDays: 6, endDate: new Date().copyWith(year: 2015, month: Calendar.MARCH, dayOfMonth: 20), startingPrice: 52.00, deliverOption: "US Only", sellerAccount: account1)
         listing1.save(failOnError: true)
         def listing2 = new Listing(name: "Radio", description: "boombox", startDate: new Date().copyWith(year: 2015, month: Calendar.FEBRUARY, dayOfMonth: 15),
-                listingDays: 5, endDate: new Date().copyWith(year: 2015, month: Calendar.MARCH, dayOfMonth: 28), startingPrice: 10.00, deliverOption: "US Only", sellerAccount: account2)
+                listingDays: 5, endDate: new Date().copyWith(year: 2015, month: Calendar.APRIL, dayOfMonth: 28), startingPrice: 10.00, deliverOption: "US Only", sellerAccount: account2)
         listing2.save(failOnError: true)
 
         def bid1 = new Bid(listedItem: listing1, biddingAccount: account2, bidAmount: 53.25)

@@ -22,24 +22,41 @@ class AccountController extends RestfulController<Account> {
         super(Account);
     }
 
-    //ToDo: figure out how to get the account username from the ID on the end of the URL inside the closure (so I don't have to pass the username as the parameter)
-    @Secured(closure = {
-        def username = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
-        authentication.principal.username == username
-    }, httpMethod = 'GET')
-    def show() {
-        def username = params.id
-        respond Account.findByUsername(username)
+    @Secured(['ROLE_USER'])
+    def index() {
+        def results = Account.list()
+        respond results
     }
 
-    //ToDo: figure out how to get the account username from the ID on the end of the URL inside the closure (so I don't have to pass the username as the parameter)
     @Secured(closure = {
-        def username = request.requestURI.substring(request.requestURI.lastIndexOf('/')+1)
-        authentication.principal.username == username
+        authentication.principal && authentication.principal.username != "__grails.anonymous.user__"
+    }, httpMethod = 'GET')
+    def show() {
+        def account = Account.findById(params.id)
+        if (account == null) {
+            response.sendError(404)
+            return
+        }
+        if (account != springSecurityService.currentUser as Account) {
+            response.sendError(403, 'you must be logged in as your own account in order to view details')
+            return
+        }
+        respond account
+    }
+
+    @Secured(closure = {
+        authentication.principal && authentication.principal.username != "__grails.anonymous.user__"
     }, httpMethod = 'PUT')
     def update() {
-        def username = params.id
-        def account = Account.findByUsername(username)
+        def account = Account.findById(params.id)
+        if (account == null) {
+            response.sendError(404)
+            return
+        }
+        if (account != springSecurityService.currentUser as Account) {
+            response.sendError(403, 'you must be logged in as your own account in order to edit')
+            return
+        }
         account.properties = getObjectToBind()
         account.validate()
         if (account.hasErrors()) {
@@ -52,5 +69,6 @@ class AccountController extends RestfulController<Account> {
 
     def delete() {
         response.sendError(401, 'deleting accounts is not permitted')
+        return
     }
 }
