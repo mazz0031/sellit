@@ -28,8 +28,10 @@
 
 # "temporary" build files
 /target
+/.idea
 *.ipr
 *.iws
+*.iml
 
 # bower components
 /node_modules 

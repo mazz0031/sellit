@@ -1,5 +1,7 @@
 package sellit
 
+import grails.util.BuildSettingsHolder
+
 /**
  * Created by mark.mazzitello on 3/27/2015.
  */
@@ -29,6 +31,6 @@ class SellitRemoteControl extends RemoteControl {
     }
 
     static String getFunctionalTestBaseUrl() {
-        Holders.config?.grails?.serverURL?.replace('null', '/sellit/') ?: 'http://localhost:8080/sellit/'
+        BuildSettingsHolder.settings?.functionalTestBaseUrl.replace('null', '/sellit/') ?: 'http://localhost:8080/sellit/'
     }
 }
