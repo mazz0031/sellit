@@ -63,6 +63,10 @@ class BidController extends RestfulController<Bid> {
             return
         }
         bid.save(flush: true)
+        def listing = bid.listedItem
+        listing.highBidAccount = account
+        listing.currentHighBid = bid.bidAmount
+        listing.save(flush: true)
         respond bid
     }
 

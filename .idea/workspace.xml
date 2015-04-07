@@ -5,216 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25aad472-7727-4d36-a7c3-c3e2861dab1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/sellit/BidFunctionalSpec.groovy" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\grails-app\controllers\sellit\AddressController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\grails-app\domain\sellit\Address.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\grails-app\views\address\_form.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\grails-app\views\address\create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\grails-app\views\address\edit.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\grails-app\views\address\index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\grails-app\views\address\show.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_$tt__delete_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_$tt__save_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_$tt__show_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_$tt__update_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_create_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_delete_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_edit_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_get_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_index_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_notFound_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_notFound_closure9_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_notFound_closure9_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_save_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_show_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__delete_closure13_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__delete_closure13_closure21.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__save_closure11_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__save_closure11_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__update_closure12_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_tt__update_closure12_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountController$_update_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AccountRestController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\Address$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\Address.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AddressController$_delete_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AddressController$_save_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AddressController$_update_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\AddressController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_$tt__index_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_$tt__index_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_$tt__save_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_bidIsValid_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_bidIsValid_closure5_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_create_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_index_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_save_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_show_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_tt__index_closure6_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_tt__index_closure7_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_tt__save_closure8_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\BidController$_tt__save_closure8_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__delete_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__index_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__save_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__search_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__search_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_$tt__update_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_create_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_delete_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_edit_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_notFound_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_notFound_closure9_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_notFound_closure9_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_save_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_search_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_show_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__delete_closure15_closure26.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__delete_closure15_closure27.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__save_closure13_closure22.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__save_closure13_closure23.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__search_closure11_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__search_closure11_closure18_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__search_closure12_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__search_closure12_closure20_closure21.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__update_closure14_closure24.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_tt__update_closure14_closure25.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ListingController$_update_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_$tt__save_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_create_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_index_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_notFound_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_notFound_closure5_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_notFound_closure5_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_save_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_show_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_tt__save_closure6_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\production\sellit\sellit\ReviewController$_tt__save_closure6_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\test\sellit\sellit\AccountControllerIntegrationSpec.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\test\sellit\sellit\AccountFunctionalSpec$_cleanup_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\test\sellit\sellit\AccountFunctionalSpec$_setup_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\test\sellit\sellit\BidControllerIntegrationSpec.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\test\sellit\sellit\ListingControllerIntegrationSpec.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\out\test\sellit\sellit\ReviewControllerIntegrationSpec.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure2.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure2_closure4.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure2_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure3.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$_getAuthorities_closure1.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Account$_getAuthorities_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Account.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/AccountFunctionalSpec.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/AccountFunctionalSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetMethodTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetPipelineFilter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetPipelineFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetProcessorService.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetProcessorService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/AssetResourceLocator.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/AssetResourceLocator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsController.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Bid.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Bid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidService.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/BidService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CacheManager.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CacheManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/CachingLinkGenerator.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/CachingLinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CssAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CssAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssMinifyPostProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssMinifyPostProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DbdocController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/webxml/FilterManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/GebConfig.class" afterPath="$PROJECT_DIR$/out/test/sellit/GebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormColumn.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormColumn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabase.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDiff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsCacheAdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/HtmlAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/HtmlAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/HttpUtils$_doFormPost_closure1.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/HttpUtils$_doFormPost_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/HttpUtils.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/HttpUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/InterceptedUrl.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/InterceptedUrl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/JsAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/JsAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/LinkGenerator.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/LinkGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Listing.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Listing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_index_closure1.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_index_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/LoginController.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/LoginPage.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/pages/LoginPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/LogoutController.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/LogoutController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/ManifestAssetFile.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/ManifestAssetFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationRunner.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/NoopVisitor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/NoopVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/ReflectionUtils.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/ReflectionUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/remotecontrol/RemoteControl.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/remotecontrol/RemoteControl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/remotecontrol/RemoteControlServlet.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/remotecontrol/RemoteControlServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Review.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Review.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Role.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/RoleController.class" afterPath="$PROJECT_DIR$/out/production/sellit/sellit/RoleController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ScriptUtils.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ScriptUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/SellitRemoteControl.class" afterPath="$PROJECT_DIR$/out/test/sellit/sellit/SellitRemoteControl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/Slf4jLogger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SpringSecurityService.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SpringSecurityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServer.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServerFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/sellit/Account.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/sellit/Account.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/sellit/AccountFunctionalSpec.groovy" afterPath="$PROJECT_DIR$/test/functional/sellit/AccountFunctionalSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/sellit/ReviewFunctionalSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/sellit/ListingFunctionalSpec.groovy" afterPath="$PROJECT_DIR$/test/functional/sellit/ListingFunctionalSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/sellit/ReviewController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/sellit/ReviewController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sellit.iws" />
@@ -230,6 +25,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sellit$Grails_sellit.coverage" NAME="Grails:sellit Coverage Results" MODIFIED="1428368019411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -255,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/test/functional/sellit/ListingFunctionalSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="58" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
+              <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
               <folding>
                 <element signature="e#16#40#0" expanded="true" />
               </folding>
@@ -267,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/test/functional/sellit/BidFunctionalSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="48" />
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
                 <element signature="e#16#40#0" expanded="true" />
               </folding>
@@ -275,21 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BidController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy">
+      <file leaf-file-name="ReviewFunctionalSpec.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/functional/sellit/ReviewFunctionalSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.782609">
-              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-              <folding />
+            <state vertical-scroll-proportion="2.206107">
+              <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+              <folding>
+                <element signature="e#16#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootStrap.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6">
-              <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="65" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -298,8 +98,8 @@
       <file leaf-file-name="ListingController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.739132">
-              <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+            <state vertical-scroll-proportion="-16.47826">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
                 <element signature="e#16#70#0" expanded="true" />
               </folding>
@@ -307,14 +107,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy">
+      <file leaf-file-name="BidController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.304348">
-              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+            <state vertical-scroll-proportion="-19.217392">
+              <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestfulController.groovy" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gvm/grails/current/dist/grails-plugin-rest-2.4.4-sources.jar!/grails/rest/RestfulController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="228" column="54" selection-start-line="228" selection-start-column="54" selection-end-line="228" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReviewController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/ReviewController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-67.26087">
+              <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
               <folding>
                 <element signature="e#16#70#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bid.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Bid.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.9423077">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Listing.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Listing.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5769231">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -332,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/unit/sellit/AddressSpec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/sellit/AddressControllerSpec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/sellit/BidControllerSpec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/sellit/ReviewControllerSpec.groovy" />
@@ -368,7 +213,6 @@
         <option value="$PROJECT_DIR$/test/functional/sellit/pages/LoginPage.groovy" />
         <option value="$PROJECT_DIR$/test/functional/sellit/SellitRemoteControl.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/sellit/ReviewController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/sellit/RoleController.groovy" />
         <option value="$PROJECT_DIR$/test/functional/sellit/FunctionalTestUtils.groovy" />
         <option value="$PROJECT_DIR$/test/functional/sellit/HttpUtils.groovy" />
@@ -378,11 +222,13 @@
         <option value="$PROJECT_DIR$/test/functional/sellit/AccountFunctionalSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy" />
         <option value="$PROJECT_DIR$/test/functional/sellit/BidFunctionalSpec.groovy" />
         <option value="$PROJECT_DIR$/test/functional/sellit/ListingFunctionalSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/sellit/ReviewController.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/sellit/ReviewFunctionalSpec.groovy" />
       </list>
     </option>
   </component>
@@ -401,9 +247,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1592" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="width" value="1936" />
     <option name="height" value="1186" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -431,7 +277,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -684,6 +529,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
@@ -700,7 +546,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../muzic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="configurable.group.editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -747,16 +593,6 @@
       <ConfigurationWrapper RunnerId="GrailsMavenDebuggerRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="update account email (logged in as requested Account)()" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
-      <module name="sellit" />
-      <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
-      <setting name="cmdLine" value="test-app functional: &quot;sellit.AccountFunctionalSpec.update account email (logged in as requested Account)&quot; -echoOut" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="ListingFunctionalSpec" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
       <module name="sellit" />
       <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
@@ -771,6 +607,16 @@
       <module name="sellit" />
       <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
       <setting name="cmdLine" value="test-app functional: sellit.BidFunctionalSpec -echoOut" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReviewFunctionalSpec" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
+      <module name="sellit" />
+      <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
+      <setting name="cmdLine" value="test-app functional: sellit.ReviewFunctionalSpec -echoOut" />
       <setting name="depsClasspath" value="false" />
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1057,17 +903,17 @@
       <item index="0" class="java.lang.String" itemvalue="Grails.Grails:sellit" />
       <item index="1" class="java.lang.String" itemvalue="Grails.Grails tests:functional" />
       <item index="2" class="java.lang.String" itemvalue="Grails.AccountFunctionalSpec" />
-      <item index="3" class="java.lang.String" itemvalue="Grails.update account email (logged in as requested Account)()" />
-      <item index="4" class="java.lang.String" itemvalue="Grails.ListingFunctionalSpec" />
-      <item index="5" class="java.lang.String" itemvalue="Grails.BidFunctionalSpec" />
+      <item index="3" class="java.lang.String" itemvalue="Grails.ListingFunctionalSpec" />
+      <item index="4" class="java.lang.String" itemvalue="Grails.BidFunctionalSpec" />
+      <item index="5" class="java.lang.String" itemvalue="Grails.ReviewFunctionalSpec" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Grails.Grails tests:functional" />
-        <item index="1" class="java.lang.String" itemvalue="Grails.ListingFunctionalSpec" />
+        <item index="1" class="java.lang.String" itemvalue="Grails.ReviewFunctionalSpec" />
         <item index="2" class="java.lang.String" itemvalue="Grails.BidFunctionalSpec" />
-        <item index="3" class="java.lang.String" itemvalue="Grails.AccountFunctionalSpec" />
-        <item index="4" class="java.lang.String" itemvalue="Grails.update account email (logged in as requested Account)()" />
+        <item index="3" class="java.lang.String" itemvalue="Grails.ListingFunctionalSpec" />
+        <item index="4" class="java.lang.String" itemvalue="Grails.AccountFunctionalSpec" />
       </list>
     </recent_temporary>
   </component>
@@ -1122,12 +968,13 @@
       <workItem from="1428023644996" duration="14086000" />
       <workItem from="1428070969489" duration="9863000" />
       <workItem from="1428094946186" duration="1877000" />
-      <workItem from="1428108715673" duration="14465000" />
+      <workItem from="1428108715673" duration="15389000" />
+      <workItem from="1428363779496" duration="8904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246176000" />
+    <option name="totallyTimeSpent" value="256004000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1150,33 +997,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1616" height="1186" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889733" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3269962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35076046" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3811787" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35076046" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1203,18 +1051,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy</url>
-          <line>97</line>
-          <properties />
-          <option name="timeStamp" value="326" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="327" />
+      <option name="time" value="374" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1223,38 +1063,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/dist/grails-plugin-controllers-2.4.4-sources.jar!/org/codehaus/groovy/grails/plugins/web/api/ControllersApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3328467">
-          <caret line="338" column="18" selection-start-line="338" selection-start-column="18" selection-end-line="338" selection-end-column="18" />
-          <folding>
-            <element signature="e#12473#12474#0" expanded="false" />
-            <element signature="e#12566#12567#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar!/org/apache/http/client/methods/HttpPost.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32818532">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/RoleController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42457542">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#70#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/ReviewController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="42" />
           <folding>
             <element signature="e#16#70#0" expanded="false" />
           </folding>
@@ -1443,32 +1255,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Review.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55737704">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Listing.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,9 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
-          <folding>
-            <element signature="e#10043#10044#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1493,7 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="441" column="0" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1501,7 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7275641">
           <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,9 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#1691#1692#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1519,9 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="e#2494#2495#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1530,7 +1309,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding>
-            <element signature="e#16#40#0" expanded="true" />
+            <element signature="e#16#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1546,40 +1325,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gvm/grails/current/dist/grails-plugin-rest-2.4.4-sources.jar!/grails/rest/RestfulController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.24077046">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Bid.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17863397">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.304348">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-          <folding>
-            <element signature="e#16#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5457464">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1591,49 +1340,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/AccountController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.739132">
-          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.6943057">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
           <folding>
-            <element signature="e#16#70#0" expanded="true" />
+            <element signature="e#16#70#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Review.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.122427985">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/dist/grails-core-2.4.4-sources.jar!/grails/util/Holders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33226323">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <element signature="e#4973#4974#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Bid.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9423077">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/sellit/Listing.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5769231">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/BidController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.782609">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        <state vertical-scroll-proportion="-19.217392">
+          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/sellit/BidFunctionalSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="e#16#40#0" expanded="true" />
-          </folding>
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="65" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/current/dist/grails-plugin-rest-2.4.4-sources.jar!/grails/rest/RestfulController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="228" column="54" selection-start-line="228" selection-start-column="54" selection-end-line="228" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/sellit/ListingFunctionalSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="58" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
+          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
           <folding>
             <element signature="e#16#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/ListingController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6">
-          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-          <folding />
+        <state vertical-scroll-proportion="-16.47826">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/sellit/ReviewController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-67.26087">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/sellit/BidFunctionalSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/sellit/ReviewFunctionalSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.206107">
+          <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+          <folding>
+            <element signature="e#16#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

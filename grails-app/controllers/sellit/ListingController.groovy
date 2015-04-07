@@ -3,6 +3,7 @@ package sellit
 import grails.plugin.springsecurity.annotation.Secured
 import grails.rest.RestfulController
 import grails.web.JSONBuilder
+import groovy.time.TimeCategory
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
@@ -51,6 +52,9 @@ class ListingController extends RestfulController<Listing> {
         def listing = createResource();
         def account = springSecurityService.currentUser as Account
         listing.sellerAccount = account
+        use(TimeCategory) {
+            listing.endDate = listing.startDate + listing.listingDays.days
+        }
         listing.validate()
         if (listing.hasErrors()) {
             respond listing.errors, view:'edit'
@@ -71,6 +75,9 @@ class ListingController extends RestfulController<Listing> {
             return
         }
         listing.properties = getObjectToBind()
+        use(TimeCategory) {
+            listing.endDate = listing.startDate + listing.listingDays.days
+        }
         listing.validate()
         if (listing.hasErrors()) {
             respond listing.errors, view:'edit'

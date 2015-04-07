@@ -45,7 +45,7 @@ class BootStrap {
         new AccountRole(account: account2, role: role).save(failOnError: true)
 
         def listing1 = new Listing(name: "Television", description: "19-inch color CRT", startDate: new Date().copyWith(year: 2015, month: Calendar.MARCH, dayOfMonth: 10),
-                listingDays: 6, endDate: new Date().copyWith(year: 2015, month: Calendar.MARCH, dayOfMonth: 20), startingPrice: 52.00, deliverOption: "US Only", sellerAccount: account1)
+                listingDays: 6, endDate: new Date().copyWith(year: 2015, month: Calendar.MARCH, dayOfMonth: 20), startingPrice: 52.00, deliverOption: "US Only", sellerAccount: account1, highBidAccount: account2, currentHighBid: "60.90")
         listing1.save(failOnError: true)
         def listing2 = new Listing(name: "Radio", description: "boombox", startDate: new Date().copyWith(year: 2015, month: Calendar.FEBRUARY, dayOfMonth: 15),
                 listingDays: 5, endDate: new Date().copyWith(year: 2015, month: Calendar.APRIL, dayOfMonth: 28), startingPrice: 10.00, deliverOption: "US Only", sellerAccount: account2)
@@ -53,11 +53,11 @@ class BootStrap {
 
         def bid1 = new Bid(listedItem: listing1, biddingAccount: account2, bidAmount: 53.25)
         bid1.save(failOnError: true)
-        def bid2 = new Bid(listedItem: listing1, biddingAccount: account1, bidAmount: 55)
+        def bid2 = new Bid(listedItem: listing1, biddingAccount: account2, bidAmount: 55)
         bid2.save(failOnError: true)
         def bid3 = new Bid(listedItem: listing1, biddingAccount: account2, bidAmount: 57.43)
         bid3.save(failOnError: true)
-        def bid4 = new Bid(listedItem: listing1, biddingAccount: account1, bidAmount: 60.90)
+        def bid4 = new Bid(listedItem: listing1, biddingAccount: account2, bidAmount: 60.90)
         bid4.save(failOnError: true)
 
         def review1 = new Review(listedItem: listing2, reviewedAccount: account2, wasSeller: true, thumbsUp: true, reviewDescription: "Good Seller")
