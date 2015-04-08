@@ -1,608 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be69d759-74f9-4ef6-8ea4-09a8d78c197b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure2_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure2_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure2_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryResourceTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib$_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/JQueryTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AbstractProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler$_compile_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler$_getAllAssets_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler$_removeDeletedFiles_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler$_removeDeletedFiles_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler$_removeDeletedFiles_closure5_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler$_removeDeletedFiles_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetCompiler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper$_assetForFileName_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper$_assetForFileName_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper$_concat_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper$_concat_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper$_fileNameWithoutExtensionFromArtefact_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper$_getPossibleFileSpecs_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetMethodTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetMethodTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetPipelineFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetProcessorService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure1_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure2_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure6_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib$_paramsToHtmlAttr_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/AssetsTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CacheManager$_findCache_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CssAssetFile$_directiveForLine_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/CssAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor$_findDirectives_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor$_isFileInTree_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor$_recursiveTreeAppend_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor$_relativePath_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor$_relativePath_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor$_requireFileDirective_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor$_requireFullTreeDirective_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor$_requireTreeDirective_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/DirectiveProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/HtmlAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/JsAssetFile$_directiveForLine_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/JsAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/ManifestAssetFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/Processor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/AssetResourceLocator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/CachingLinkGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/grails/LinkGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssMinifyPostProcessor$_process_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssMinifyPostProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor$_process_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor$_relativePathToBaseFile_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor$_relativePathToBaseFile_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor$_relativePath_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor$_relativePath_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/CssProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor$_parseOptions_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor$_parseOptions_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/asset/pipeline/processors/UglifyJsProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/BlockingCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheBeanPostProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheConfigArtefactHandler$CacheConfigGrailsClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheConfigArtefactHandler$DefaultCacheConfigGrailsClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheConfigArtefactHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheEvict.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CachePut.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CacheTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/Cacheable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigLoader$_sortConfigs_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/ConfigLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CustomCacheKeyGenerator$CacheKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/CustomCacheKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsAnnotationCacheOperationSource$DefaultCacheKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsAnnotationCacheOperationSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsCacheAdminService$_clearAllCaches_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsCacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsConcurrentMapCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsConcurrentMapCacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/GrailsValueWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/SerializableByteArrayOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/SerializableOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/SimpleKeyGenerator$SimpleKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/SimpleKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/Timer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/compiler/CacheTransformation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/util/ClassUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/AlreadyGzippedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/ContentCacheParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/GenericResponseWrapper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/GenericResponseWrapper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/GenericResponseWrapper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/GenericResponseWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/Header$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/Header.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/HttpDateFormatter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/PageInfo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/PageInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/SerializableCookie.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/AbstractFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/CacheExpressionRootObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/CacheOperationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/ExpressionEvaluator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/NoOpFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/PageFragmentCachingFilter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/PageFragmentCachingFilter$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/PageFragmentCachingFilter$CacheStatus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/PageFragmentCachingFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/WebKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ChangelogXml2Groovy$_appendAttrs_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ChangelogXml2Groovy$_appendWithIndent_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DbdocController$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DbdocController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder$_expandExpressions_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder$_extractZipFile_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder$_handleIncludedChangeLog_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder$_processIncludeAll_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder$_processProperty_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder$_processRollback_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder$_setPropertiesFromAttributes_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/DslBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormColumn$_isIdentityColumn_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormColumn.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_createIdentifierGenerator_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_createSnapshot_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_createSnapshot_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure3_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GormDiff.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChangeLogParser$_setChangelogProperties_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationRunner$_autoRun_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationRunner$_autoRun_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationRunner$_runMigrations_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_getDataSourceConfigs_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_getDatabase_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_getDatabases_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure18_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MigrationUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer$_hasForeignKeyConstraintChange_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/NoopVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ScriptUtils$_appendToChangelog_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ScriptUtils$_appendToChangelog_closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ScriptUtils$_appendToChangelog_closure2_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ScriptUtils$_executeAndWrite_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ScriptUtils$_generatePreviousChangesetSql_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/ScriptUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableWriter$_writeCustomHTML_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/remotecontrol/RemoteControl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/remotecontrol/RemoteControlServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/CryptoEncoderWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/InterceptedUrl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/LogoutController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/ReflectionUtils$_requestmapClassSupportsHttpMethod_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/ReflectionUtils$_splitMap_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/ReflectionUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityConfigType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityEventListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityFilterPosition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$__clinit__closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib$_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SecurityTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SpringSecurityService$_findRequestmapsByRole_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SpringSecurityService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/SpringSecurityUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/access/NullAfterInvocationProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/access/intercept/NullAfterInvocationManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/access/vote/AuthenticatedVetoableDecisionManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/access/vote/ClosureConfigAttribute.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/access/vote/ClosureVoter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/annotation/Authorities.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/annotation/AuthoritiesTransformation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/annotation/Secured.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/annotation/SecuredClosureDelegate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/authentication/GrailsAnonymousAuthenticationProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/authentication/GrailsAnonymousAuthenticationToken.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/authentication/NullAuthenticationEventPublisher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/authentication/dao/NullSaltSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/authentication/encoding/BCryptPasswordEncoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/authentication/encoding/DigestAuthPasswordEncoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/authentication/encoding/PBKDF2PasswordEncoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/DefaultPostAuthenticationChecks.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/DefaultPreAuthenticationChecks.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService$_loadAuthorities_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService$_loadAuthorities_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService$_loadAuthorities_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService$_loadUserByUsername_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GrailsUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/GrailsUserDetailsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/userdetails/NoStackUsernameNotFoundException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/NullFilterChainValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/SecurityRequestHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/AjaxAwareAccessDeniedHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/DefaultThrowableAnalyzer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/DefaultThrowableAnalyzer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/DummyRequestCreator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/DummyRequestCreator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/DummyResponseCreator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/DummyResponseCreator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/GrailsWebInvocationPrivilegeEvaluator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/GrailsWebInvocationPrivilegeEvaluator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/channel/HeaderCheckInsecureChannelProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/channel/HeaderCheckSecureChannelProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/expression/WebExpressionConfigAttribute.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/expression/WebExpressionVoter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/intercept/AbstractFilterInvocationDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/intercept/AnnotationFilterInvocationDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/intercept/ChannelFilterInvocationSecurityMetadataSourceFactoryBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/intercept/InterceptUrlMapFilterInvocationDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/access/intercept/RequestmapFilterInvocationDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/AjaxAwareAuthenticationEntryPoint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/AjaxAwareAuthenticationFailureHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/AjaxAwareAuthenticationSuccessHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/FilterProcessUrlRequestMatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/NullLogoutHandlerRememberMeServices.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/RequestHolderAuthenticationFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/logout/MutableLogoutFilter$DummyLogoutHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/logout/MutableLogoutFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/preauth/x509/ClosureX509PrincipalExtractor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository$_createNewToken_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository$_removeUserTokens_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository$_updateToken_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/authentication/switchuser/NullSwitchUserAuthorityChanger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/filter/DebugFilter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/filter/DebugFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/filter/GrailsAnonymousAuthenticationFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/filter/GrailsRememberMeAuthenticationFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/springsecurity/web/filter/IpAddressFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/grails/plugin/webxml/FilterManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig$_init_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig$_init_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider$_doRemoteFunction_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider$_doRemoteFunction_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider$_doRemoteFunction_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider$_doRemoteFunction_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator$GrailsControllerType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/DomainClassPropertyComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/GrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/SimpleDomainClassPropertyComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/view/ScaffoldedGroovyPageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/codehaus/groovy/grails/scaffolding/view/ScaffoldingViewResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/ParentDelegatingClassLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatKillSwitch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServer$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_addEventHookToBinding_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createExecutionContext_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatExecutionContext$_buildMinimalIsolatedClasspath_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/spring-security-core.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/spring-security-core_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/spring-security-core_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/spring-security-core_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/spring-security-core_nb.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/spring-security-core_pt_BR.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/spring-security-core_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/spring-security-core_sv.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/README.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/README.org" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/bin/uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/docstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/lib/consolidator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/lib/parse-js.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/lib/process.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/lib/squeeze-more.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/r.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/beautify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/testconsolidator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/testparser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/1e21.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/array1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/array2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/array3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/array4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/assignment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/concatstring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/const.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/div-with-regexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/empty-blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/forstatement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/if-not.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/ifreturn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/ifreturn2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/infinite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue10.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue11.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue13.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue14.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue16.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue17.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue20.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue21.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue25.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue27.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue278.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue28.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue29.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue30.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue34.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue349.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue353.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue372.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue471.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue48.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue50.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue53.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue54.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue69.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issue9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/issues222_324.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/mangle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/null_string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/strict-equals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/expected/with.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/1e21.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/array1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/array2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/array3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/array4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/assignment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/concatstring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/const.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/div-with-regexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/empty-blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/forstatement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/if-not.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/ifreturn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/ifreturn2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/infinite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue10.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue11.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue13.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue14.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue16.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue17.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue20.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue21.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue25.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue27.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue278.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue28.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue29.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue30.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue34.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue349.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue353.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue372.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue471.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue48.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue50.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue53.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue54.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue69.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issue9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/issues222_324.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/mangle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/null_string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/strict-equals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/compress/test/with.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/test/unit/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/tmp/hoist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/tmp/instrument.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/tmp/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit-grailsPlugins/uglifyjs/uglify-js.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_cs_CZ.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_da.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_ja.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_nb.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_pt_BR.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_pt_PT.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_sv.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_th.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/messages_zh_CN.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$__clinit__closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account$_getAuthorities_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Account.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_show_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController$_update_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$__clinit__closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$__clinit__closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$__clinit__closure9_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$__clinit__closure9_closure14_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_exists_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_exists_closure2_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_get_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_get_closure1_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_removeAll_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_removeAll_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_removeAll_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_removeAll_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_remove_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_remove_closure3_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole$_remove_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/AccountRole.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Bid$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Bid.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController$_save_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidService$_serviceMethod_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/BidService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Listing$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Listing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_index_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController$_save_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ListingController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Review$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Review.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_save_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_save_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController$_save_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/ReviewController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Role$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Role$__clinit__closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/Role.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/RoleController$_save_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sellit/sellit/RoleController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/GebConfig$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/GebConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/AccountFunctionalSpec$_cleanupSpec_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/AccountFunctionalSpec$_setupSpec_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/AccountFunctionalSpec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/HttpUtils$_doFormPost_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/HttpUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/ListingFunctionalSpec$_cleanupSpec_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/ListingFunctionalSpec$_setupSpec_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/ListingFunctionalSpec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/SellitRemoteControl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage$__clinit__closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage$__clinit__closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage$__clinit__closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/AccountPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/LoginPage$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/LoginPage$__clinit__closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/LoginPage$__clinit__closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/LoginPage$__clinit__closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/sellit/sellit/pages/LoginPage.class" afterPath="" />
+    <list default="true" id="d91153b5-f098-4a83-8ee2-f69737241ddf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/scripts/_Events.groovy" />
+      <change type="DELETED" beforePath="C:\MSSE\Repos\sellit\sellit-grailsPlugins.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/sellit/SellitRemoteControl.groovy" afterPath="$PROJECT_DIR$/test/functional/sellit/SellitRemoteControl.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sellit.iml" afterPath="$PROJECT_DIR$/sellit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="mazzitello.iws" />
+    <ignored path="sellit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -620,61 +32,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="mazzitello" />
+    <favorites_list name="sellit" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SellitRemoteControl.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/functional/sellit/SellitRemoteControl.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35851967">
-              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteControl.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/work/plugins/remote-control-1.5/src/groovy/grails/plugin/remotecontrol/RemoteControl.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../../../../citr-springboot-gorm-example" value="1427258489000" />
-        <entry key="$PROJECT_DIR$/../../../../ged/myGEDTS/main" value="1389214303000" />
-        <entry key="$PROJECT_DIR$/../../../../gs-accessing-data-gorm/complete" value="1427249851000" />
-        <entry key="$PROJECT_DIR$/../../../../target/redsky-api" value="8486788392000" />
-        <entry key="$PROJECT_DIR$/../../../../usda/mw-gs-accessing-data-gorm/initial" value="1427241070000" />
-      </map>
+    <option name="externalProjectsViewState">
+      <projects_view />
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/node_modules/.bin/bower" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/grails-app/scripts/_Events.groovy" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/test/functional/sellit/SellitRemoteControl.groovy" />
       </list>
     </option>
   </component>
@@ -686,9 +63,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="2491" />
-    <option name="height" value="1417" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1186" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -713,51 +91,246 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mazzitello" />
+              <option name="myItemId" value="sellit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mazzitello" />
+              <option name="myItemId" value="sellit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mazzitello" />
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower-components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower-components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Grails.Grails:mazzitello">
+  <component name="RunManager" selected="Grails.Grails tests:functional">
+    <configuration default="false" name="Grails tests:functional" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
+      <module name="sellit" />
+      <setting name="vmparams" value="-Dgrails.full.stacktrace=true" />
+      <setting name="cmdLine" value="test-app functional: -echoOut" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -782,6 +355,90 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -803,14 +460,26 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
+        <value defaultName="singleModule" />
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <profiling log-folder="C:\MSSE\Repos\sellit" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -819,6 +488,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -840,7 +515,7 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
+        <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
@@ -849,8 +524,11 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="Grails:mazzitello" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="mazzitello" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="false" name="Grails:sellit" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="sellit" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="depsClasspath" value="false" />
@@ -859,64 +537,80 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Grails.Grails:mazzitello" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Grails.Grails:sellit" />
+      <item index="1" class="java.lang.String" itemvalue="Grails.Grails tests:functional" />
     </list>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Grails.Grails tests:functional" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="be69d759-74f9-4ef6-8ea4-09a8d78c197b" name="Default" comment="" />
-      <created>1428376378585</created>
+      <changelist id="d91153b5-f098-4a83-8ee2-f69737241ddf" name="Default" comment="" />
+      <created>1428453380675</created>
       <option name="number" value="Default" />
-      <updated>1428376378585</updated>
-      <workItem from="1428376380523" duration="364000" />
+      <updated>1428453380675</updated>
+      <workItem from="1428453384355" duration="1446000" />
+      <workItem from="1428454867934" duration="84000" />
+      <workItem from="1428454999557" duration="808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364000" />
+    <option name="totallyTimeSpent" value="2338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2491" height="1417" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24989791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39941692" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -925,27 +619,62 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/bower">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/bower">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37362638">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/scripts/_Events.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64199394">
+          <caret line="25" column="86" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05345912">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/bower">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35951662">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/remote-control-1.5/src/groovy/grails/plugin/remotecontrol/RemoteControl.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/sellit/SellitRemoteControl.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35851967">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        <state vertical-scroll-proportion="1.0949153">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -954,23 +683,23 @@
   <component name="grailsSettings">
     <option name="map">
       <map>
-        <entry key="mazzitello">
+        <entry key="sellit">
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="549160257" />
               <option name="pluginDependenciesCrc" value="1091178044" />
               <option name="properties">
                 <map>
-                  <entry key="grails.global.plugins.dir" value="$USER_HOME$/.grails/2.4.4/global-plugins" />
-                  <entry key="grails.project.plugins.dir" value="target/work/plugins" />
-                  <entry key="grails.project.work.dir" value="target/work" />
-                  <entry key="grails.work.dir" value="$USER_HOME$/.grails/2.4.4" />
+                  <entry key="grails.global.plugins.dir" value="C:\Users\mark.mazzitello\.grails\2.4.4\global-plugins" />
+                  <entry key="grails.project.plugins.dir" value="target\work\plugins" />
+                  <entry key="grails.project.work.dir" value="target\work" />
+                  <entry key="grails.work.dir" value="C:\Users\mark.mazzitello\.grails\2.4.4" />
                 </map>
               </option>
             </GrailsSettings>
           </value>
         </entry>
-        <entry key="mazzitello-grailsPlugins">
+        <entry key="sellit-grailsPlugins">
           <value>
             <GrailsSettings />
           </value>

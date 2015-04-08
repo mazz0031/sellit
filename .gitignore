@@ -28,6 +28,7 @@
 
 # "temporary" build files
 /target
+/out
 /.idea
 *.ipr
 *.iws
@@ -35,4 +36,4 @@
 
 # bower components
 /node_modules 
-/grails-app/assets/bower_components
+/grails-app/assets/bower-components
