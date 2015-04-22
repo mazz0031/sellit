@@ -1,0 +1,25 @@
+<div ng-controller="ListingController">
+    <h1>Listings</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td><td>High Bid</td><td>End Date</td><td>Seller</td>
+            </tr>
+        </thead>
+        <tr ng-repeat="listing in listings">
+            <td>{{ listing.name }}</td>
+            <td>{{ listing.currentHighBid }}</td>
+            <td>{{ listing.endDate }}</td>
+            <td>{{ listing.sellerAccount.username }}</td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+</div>

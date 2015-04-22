@@ -121,6 +121,7 @@ grails.plugin.springsecurity.rejectIfNoRule = false
 grails.plugin.springsecurity.fii.rejectPublicInvocations = false
 
 // Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.logout.postOnly = false
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'sellit.Account'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'sellit.AccountRole'
 grails.plugin.springsecurity.authority.className = 'sellit.Role'
