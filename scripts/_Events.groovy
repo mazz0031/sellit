@@ -1,25 +1,10 @@
 eventCompileStart = { kind ->
     executeNpmInstall()
+    executeBowerInstall()
     executeGruntTasks()
 }
 
-//private void executeNpmInstall() {
-//    Process proc = (new ProcessBuilder(
-//            "C:\\Program Files\\nodejs\\npm.cmd",
-//            "install"
-//    )).start()
-//    //def npmInstall = 'npm install'
-//    println "| npm install..."
-//    //def proc = npmInstall.execute()
-//    proc.waitFor()
-//    if (proc.exitValue() != 0) {
-//        println "Error installing npm dependencies : ${proc.err.text}"
-//        println "Output: ${proc.in.text}"
-//    }
-//}
-
 private void executeNpmInstall() {
-
     def npmInstall
     if (System.properties['os.name'].toLowerCase().contains('windows')){
         npmInstall = "cmd.exe /C npm install"
@@ -27,7 +12,6 @@ private void executeNpmInstall() {
     else {
         npmInstall = "npm install"
     }
-
     println "| npm install..."
     def proc = npmInstall.execute()
     proc.waitFor()
@@ -38,23 +22,18 @@ private void executeNpmInstall() {
     }
 }
 
-
-//private void executeGruntTasks() {
-//    Process proc = (new ProcessBuilder(
-//            "C:\\MSSE\\Repos\\sellit\\node_modules\\.bin\\grunt.cmd"
-//    )).start()
-//    println "| Load js dependencies from cache..."
-//    proc.waitFor() // execute default task to load dependencies from local cache.
-//    if (proc.exitValue() != 0) {
-//        println "| Error occured while loading dependencies from local cache : ${proc.err.text}"
-//        println "| Try loading dependencies from web..."
-//        proc = (new ProcessBuilder(
-//                "C:\\MSSE\\Repos\\sellit\\node_modules\\.bin\\grunt.cmd"
-//        )).start()
-//        proc.waitFor()                               // Wait for the command to finish
-//        println "Output: ${proc.in.text}"
-//    }
-//}
+private void executeBowerInstall() {
+    def bowerInstall = System.properties['os.name'].toLowerCase().contains('windows') ?
+            "cmd.exe /C node_modules\\.bin\\bower install" :
+            "node_modules/.bin/bower install"
+    println "| bower install..."
+    def proc = bowerInstall.execute()
+    proc.waitFor()
+    if (proc.exitValue() != 0) {
+        println "Error installing bower dependencies"
+        println "Output: ${proc.in.text}"
+    }
+}
 
 private void executeGruntTasks() {
     def gruntScript

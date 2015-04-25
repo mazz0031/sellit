@@ -6,7 +6,7 @@
 
 angular.module('app').controller('ListingController', function ($scope, $modal, $http) {
     var getListings = function () {
-        return $http.get('listings/').then(function (response) {
+        return $http.get('api/listings/').then(function (response) {
             $scope.listings = response.data;
         });
     };

@@ -149,3 +149,5 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
     '/grails-remote-control/**': ['permitAll']
 ]
 
+grails.converters.json.default.deep = true
+

@@ -76,6 +76,7 @@ grails.project.dependency.resolution = {
 
         // plugins for test
         test "org.grails.plugins:geb:0.10.0"
+        test ":karma-test-runner:0.2.2"
         compile ":remote-control:1.5"
 
         // Uncomment these to enable additional asset-pipeline capabilities
