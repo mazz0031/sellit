@@ -5,15 +5,6 @@
 'use strict';
 
 angular.module('app').controller('ListingController', function ($scope, $modal, $http) {
-    var getListings = function() {
-        if ($scope.cbShowCompleted) {
-            return getAllListings();
-        }
-        else {
-            return getActiveListings();
-        }
-    }
-
     var getActiveListings = function () {
         return $http.get('api/listings/').then(function (response) {
             $scope.listings = response.data;
@@ -24,9 +15,21 @@ angular.module('app').controller('ListingController', function ($scope, $modal, 
         return $http.get('api/listings?showCompleted=true').then(function (response) {
             $scope.listings = response.data;
         });
-    }
+    };
 
-    getListings();
+    $scope.getListings = function($event, id) {
+        var checkbox = $event.target;
+        if (checkbox.checked) {
+            return getAllListings();
+        }
+        else {
+            return getActiveListings();
+        }
+    };
+
+    getActiveListings();
+
+
 
     $scope.alerts = [];
 });

@@ -1,7 +1,7 @@
 <div ng-controller="ListingController">
     <h1>Listings</h1>
 
-    <input type="checkbox" name="cbShowCompleted" ng-click="getListings()"> include completed listings
+    <input type="checkbox" name="cbShowCompleted" ng-click="getListings($event, e.id)"> include completed listings
 
     <table>
         <thead style="font-weight: bold">
