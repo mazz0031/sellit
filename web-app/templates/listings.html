@@ -1,17 +1,19 @@
 <div ng-controller="ListingController">
     <h1>Listings</h1>
 
+    <input type="checkbox" name="cbShowCompleted" ng-click="getListings()"> include completed listings
+
     <table>
-        <thead>
+        <thead style="font-weight: bold">
             <tr>
                 <td>Name</td><td>High Bid</td><td>End Date</td><td>Seller</td>
             </tr>
         </thead>
         <tr ng-repeat="listing in listings">
-            <td>{{ listing.name }}</td>
-            <td>{{ listing.currentHighBid }}</td>
-            <td>{{ listing.endDate }}</td>
-            <td>{{ listing.sellerAccount.username }}</td>
+            <td ng-bind="listing.name"></td>
+            <td ng-bind="listing.currentHighBid"></td>
+            <td ng-bind="listing.endDate | date:'MM/dd/yyyy hh:mm'"></td>
+            <td ng-bind="listing.sellerAccount.username"></td>
         </tr>
     </table>
 

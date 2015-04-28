@@ -438,6 +438,7 @@ th {
 
 thead th {
 	white-space: nowrap;
+	font-weight: bold;
 }
 
 th a {
