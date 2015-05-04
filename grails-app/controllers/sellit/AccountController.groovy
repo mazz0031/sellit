@@ -3,6 +3,7 @@ package sellit
 import grails.plugin.springsecurity.annotation.Secured
 import grails.rest.RestfulController
 import grails.web.JSONBuilder
+import groovy.time.TimeCategory
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
@@ -13,7 +14,7 @@ import grails.converters.JSON
  * Created by mark.mazzitello on 3/28/2015.
  */
 class AccountController extends RestfulController<Account> {
-    static allowedMethods = [update: "PUT", show: "GET", delete: "DELETE"]
+    static allowedMethods = [update: "PUT", show: "GET", save: "POST", delete: "DELETE"]
     static responseFormats = ['json']
 
     def springSecurityService
@@ -58,6 +59,17 @@ class AccountController extends RestfulController<Account> {
             return
         }
         account.properties = getObjectToBind()
+        account.validate()
+        if (account.hasErrors()) {
+            respond account.errors, view:'edit'
+            return
+        }
+        account.save(flush: true)
+        respond account
+    }
+
+    def save() {
+        def account = createResource();
         account.validate()
         if (account.hasErrors()) {
             respond account.errors, view:'edit'

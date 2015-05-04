@@ -7,6 +7,7 @@ class Listing {
     Date startDate
     Integer listingDays
     Date endDate
+    Boolean completed
     Float startingPrice
     String deliverOption
     Account sellerAccount
@@ -25,6 +26,7 @@ class Listing {
         sellerAccount blank: false
         currentHighBid nullable: true
         highBidAccount nullable: true
+        completed nullable: true
     }
 
 }

@@ -1,27 +1,68 @@
 <div ng-controller="ListingController">
-    <h1>Listings</h1>
 
-    <input type="checkbox" name="cbShowCompleted" ng-click="getListings($event, e.id)"> include completed listings
+    <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
 
-    <table>
-        <thead style="font-weight: bold">
+    <div ng-show="!newListing">
+        <h1>Listings</h1>
+
+        <input type="checkbox" id="cbShowCompleted" ng-click="getListings($event, e.id)"> include completed listings
+
+        <table>
+            <thead style="font-weight: bold">
             <tr>
-                <td>Name</td><td>High Bid</td><td>End Date</td><td>Seller</td>
+                <td>Name</td>
+                <td>High Bid</td>
+                <td>End Date</td>
+                <td>Seller</td>
             </tr>
-        </thead>
-        <tr ng-repeat="listing in listings">
-            <td ng-bind="listing.name"></td>
-            <td ng-bind="listing.currentHighBid"></td>
-            <td ng-bind="listing.endDate | date:'MM/dd/yyyy hh:mm'"></td>
-            <td ng-bind="listing.sellerAccount.username"></td>
-        </tr>
-    </table>
+            </thead>
+            <tr ng-repeat="listing in listings">
+                <td><a href="#/listing/{{listing.id}}">{{listing.name}}</a></td>
+                <td ng-bind="listing.currentHighBid"></td>
+                <td ng-bind="listing.endDate | date:'MM/dd/yyyy hh:mm'"></td>
+                <td ng-bind="listing.sellerAccount.username"></td>
+            </tr>
+        </table>
 
+        <button id="btnNewListing" ng-click="addListing()" ng-show="loggedInUser.username != '__grails.anonymous.user__'">Create New Listing</button>
+    </div>
 
+    <div ng-show="newListing">
+        <h1>New Listing</h1>
+        <table>
+            <tr>
+                <td>Listing Name:</td>
+                <td><input type="text" id="txtListingName" style="width:500px" ng-required="true"></td>
+            </tr>
+            <tr>
+                <td>Listing Description:</td>
+                <td><input type="text" id="txtListingDesc" style="width: 500px; height: 100px" ng-required="true"></td>
+            </tr>
+            <tr>
+                <td>Start Date:</td>
+                <td><input type="date" id="txtStartDate" ng-required="true"></td>
+            </tr>
+            <tr>
+                <td>Listing Length (days):</td>
+                <td><input type="number" min="3" max="10" id="txtDays" ng-required="true"></td>
+            </tr>
+            <tr>
+                <td>Starting Price:</td>
+                <td><input type="number" id="txtStartingPrice" ng-required="true"></td>
+            </tr>
+            <tr>
+                <td>Delivery Option:</td>
+                <td><select id="pklDeliverOption" ng-required="true">
+                    <option value="US Only">US Only</option>
+                    <option value="Worldwide">Worldwide</option>
+                    <option value="Pick Up Only">Pick Up Only</option>
+                </select></td>
+            </tr>
 
+        </table>
 
-
-
-
+        <button id="btnSaveListing" ng-click="saveListing()">Save</button>
+        <button id="btnCancelListing" ng-click="cancelListing()">Cancel</button>
+    </div>
 
 </div>

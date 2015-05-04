@@ -42,6 +42,11 @@ class ListingController extends RestfulController<Listing> {
             response.sendError(404)
             return
         }
+        def now = new Date()
+        if (listing.endDate < now)
+        {
+            listing.completed = true;
+        }
         respond listing
     }
 
@@ -52,6 +57,12 @@ class ListingController extends RestfulController<Listing> {
         def listing = createResource();
         def account = springSecurityService.currentUser as Account
         listing.sellerAccount = account
+
+        //had to add this code because after a whole day of trying I still could not get the javascript/html date to parse into a grails date
+        if (listing.startDate == null) {
+            listing.startDate = new Date()
+        }
+
         use(TimeCategory) {
             listing.endDate = listing.startDate + listing.listingDays.days
         }

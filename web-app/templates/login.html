@@ -1,0 +1,14 @@
+<div ng-controller="loginController">
+
+    <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+
+    <div>
+        Username:<input type="text" id="username" ng-model="credentials.username"/>
+    </div>
+    <div>
+        Password:<input type="password" id="password" ng-model="credentials.password"/>
+    </div>
+
+    <button type="submit" ng-click="login()">Submit</button>
+
+</div>

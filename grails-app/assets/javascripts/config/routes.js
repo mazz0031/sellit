@@ -6,6 +6,8 @@
 
 angular.module('app').config(function($routeProvider) {
     $routeProvider.when("/listings", {templateUrl: "templates/listings.html"});
+    $routeProvider.when("/listing/:id", {templateUrl: "templates/listingDetail.html"});
+    $routeProvider.when("/account", {templateUrl: "templates/account.html"});
     $routeProvider.when("/login", {templateUrl: "templates/login.html"});
 
     // Default route: listings screen

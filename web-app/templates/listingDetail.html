@@ -1,0 +1,58 @@
+<div ng-controller="ListingDetailController">
+
+    <h1>Listing Detail</h1>
+
+    <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+
+    <table>
+        <tr>
+            <td>Listing Name:</td>
+            <td>{{listing.name}}</td>
+        </tr>
+        <tr>
+            <td>Listing Description:</td>
+            <td>{{listing.description}}</td>
+        </tr>
+        <tr>
+            <td>Start Date:</td>
+            <td>{{listing.startDate}}</td>
+        </tr>
+        <tr>
+            <td>Days:</td>
+            <td>{{listing.listingDays}}</td>
+        </tr>
+        <tr>
+            <td>Ending Date:</td>
+            <td>{{listing.endDate}}</td>
+        </tr>
+        <tr>
+            <td>Starting Price:</td>
+            <td>{{listing.startingPrice}}</td>
+        </tr>
+        <tr>
+            <td>Delivery Option:</td>
+            <td>{{listing.deliverOption}}</td>
+        </tr>
+        <tr>
+            <td>Seller:</td>
+            <td>{{listing.sellerAccount.username}}</td>
+        </tr>
+        <tr>
+            <td>High Bid:</td>
+            <td>{{listing.currentHighBid}}</td>
+        </tr>
+
+    </table>
+
+    <div ng-show="newBid">
+        Bid Amount: <input type="number" id="txtBidAmount" min="1">
+        <button id="btnSubmitBid" ng-click="saveBid()">Submit Bid</button>
+        <button id="btnCancelBid" ng-click="cancelBid()">Cancel</button>
+        <br/><br/>
+    </div>
+
+    <button id="btnFeedback" ng-show="(listing.sellerAccount.username == loggedInUser.username || listing.highBidAccount.username == loggedInUser.username) && listing.completed">Leave Feedback</button>
+    <button id="btnBid" ng-show="!listing.completed && loggedInUser.username != '__grails.anonymous.user__' && !newBid" ng-click="createBid()">Place Bid</button>
+    <button id="btnReturn" ng-click="returnToListings()">Return to Listings</button>
+
+</div>

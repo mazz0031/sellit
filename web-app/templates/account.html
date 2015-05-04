@@ -1,0 +1,51 @@
+<html>
+<body>
+
+<form ng-controller="AccountController" name="newAccountForm" novalidate>
+
+    <h1>New Account</h1>
+
+    <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" id="txtUsername" ng-required="true"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" id="txtPassword1" ng-required="true"></td>
+        </tr>
+        <tr>
+            <td>Repeat Password:</td>
+            <td><input type="password" id="txtPassword2" ng-required="true"></td>
+        </tr>
+        <tr>
+            <td>email:</td>
+            <td><input type="email" id="txtEmail" ng-required="true"></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" id="txtAddress"></td>
+        </tr>
+        <tr>
+            <td>City:</td>
+            <td><input type="text" id="txtCity"></td>
+        </tr>
+        <tr>
+            <td>State:</td>
+            <td><input type="text" id="txtState"></td>
+        </tr>
+        <tr>
+            <td>Postal Code:</td>
+            <td><input type="text" id="txtPostalCode"></td>
+        </tr>
+    </table>
+
+    <button id="btnSaveAccount" ng-click="saveAccount()">Save</button>
+    <button id="btnCancelAccount" ng-click="cancelAccount()">Cancel</button>
+
+</form>
+
+</body>
+</html>
