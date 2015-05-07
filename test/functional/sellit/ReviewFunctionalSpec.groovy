@@ -46,8 +46,8 @@ class ReviewFunctionalSpec extends GebSpec {
 
     def "cannot access create review endpoint if not logged in" () {
         when: 'REST call is made to Review Save (POST) api'
-        def listingId = Listing.findByName('test listing 2').id
-        def resp = doJsonPost('api/reviews/?listingId=' + listingId, [thumbsUp: true, reviewDescription: 'description'])
+        def listing = Listing.findByName('test listing 2')
+        def resp = doJsonPost('api/reviews', [listedItem: listing.id, thumbsUp: true, reviewDescription: 'description'])
 
         then:
         resp.status == 302 //redirect to login page
@@ -57,8 +57,8 @@ class ReviewFunctionalSpec extends GebSpec {
         when: 'REST call is made to Review Save (POST) api'
         def response = httpUtils.doFormPost('j_spring_security_check', [j_username: 'bidder1-test', j_password: 'password1'])
         assert response.status == 302
-        def listingId = Listing.findByName('test listing 2').id
-        def resp = doJsonPost('api/reviews/?listingId=' + listingId, [thumbsUp: true, reviewDescription: 'description'])
+        def listing = Listing.findByName('test listing 2')
+        def resp = doJsonPost('api/reviews', [listedItem: listing.id, thumbsUp: true, reviewDescription: 'description'])
 
         then: 'Server returns a status of OK'
         resp.status == 200
@@ -68,21 +68,20 @@ class ReviewFunctionalSpec extends GebSpec {
         resp.data.reviewedAccount.id == sellerAccount.id
     }
 
-//    //ToDo: if I ever get Spring Security Logout to work; logout as bidder and login as seller to test seller review
-//    def "can create a review for a completed listing when logged in as the seller" () {
-//        when: 'REST call is made to Review Save (POST) api'
-//        //ToDo: put logout code here
-//        def response = httpUtils.doFormPost('j_spring_security_check', [j_username: 'seller1-test', j_password: 'password1'])
-//        assert response.status == 302
-//        def listingId = Listing.findByName('test listing 2').id
-//        def resp = doJsonPost('api/reviews/?listingId=' + listingId, [thumbsUp: true, reviewDescription: 'description'])
-//
-//        then: 'Server returns a status of OK'
-//        resp.status == 200
-//
-//        and: 'The reviewed account is the high bidder for the Listing'
-//        def bidderAccount = Listing.findByName('test listing 2').highBidAccount
-//        resp.data.reviewedAccount.id == bidderAccount.id
-//    }
+    def "can create a review for a completed listing when logged in as the seller" () {
+        when: 'REST call is made to Review Save (POST) api'
+        doJsonPut('logout', null)
+        def response = httpUtils.doFormPost('j_spring_security_check', [j_username: 'seller1-test', j_password: 'password1'])
+        assert response.status == 302
+        def listing = Listing.findByName('test listing 2')
+        def resp = doJsonPost('api/reviews', [listedItem: listing.id, thumbsUp: true, reviewDescription: 'description'])
+
+        then: 'Server returns a status of OK'
+        resp.status == 200
+
+        and: 'The reviewed account is the high bidder for the Listing'
+        def bidderAccount = Listing.findByName('test listing 2').highBidAccount
+        resp.data.reviewedAccount.id == bidderAccount.id
+    }
 
 }

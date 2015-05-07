@@ -41,6 +41,10 @@
             <td>High Bid:</td>
             <td>{{listing.currentHighBid}}</td>
         </tr>
+        <tr>
+            <td>High Bidder:</td>
+            <td>{{listing.highBidAccount.username}}</td>
+        </tr>
 
     </table>
 
@@ -51,7 +55,25 @@
         <br/><br/>
     </div>
 
-    <button id="btnFeedback" ng-show="(listing.sellerAccount.username == loggedInUser.username || listing.highBidAccount.username == loggedInUser.username) && listing.completed">Leave Feedback</button>
+    <div ng-show="newReview">
+        <table>
+            <tr>
+                <td>
+                    <input type="checkbox" name="thumbs" id="cbThumbsUp"><i class="glyphicon glyphicon-thumbs-up"></i>(thumbs up)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Description: <input type="text" id="txtReviewDescription" style="width:500px">
+                    <button id="btnSaveReview" ng-click="saveReview()">Save</button>
+                    <button id="btnCancelReview" ng-click="cancelReview()">Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <button id="btnReviewSeller" ng-show="listing.highBidAccount.username == loggedInUser.username && listing.completed && !newReview" ng-click="createReview(false)">Leave Review for Seller</button>
+    <button id="btnReviewWinner" ng-show="listing.sellerAccount.username == loggedInUser.username && listing.completed && !newReview" ng-click="createReview(true)">Leave Review for Winner</button>
     <button id="btnBid" ng-show="!listing.completed && loggedInUser.username != '__grails.anonymous.user__' && !newBid" ng-click="createBid()">Place Bid</button>
     <button id="btnReturn" ng-click="returnToListings()">Return to Listings</button>
 

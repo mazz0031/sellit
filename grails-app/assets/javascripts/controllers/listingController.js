@@ -63,6 +63,10 @@ angular.module('app').controller('ListingController', function ($scope, $modal, 
         delete $scope.newListing;
     };
 
+    $scope.closeAlert = function (index) {
+        $scope.alerts.splice(index, 1);
+    };
+
     $scope.clearAlerts = function () {
         $scope.alerts.forEach(function (index) {
             $scope.alerts.splice(index);

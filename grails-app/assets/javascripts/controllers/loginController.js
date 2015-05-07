@@ -28,8 +28,6 @@ angular.module('app').controller('loginController', function ($rootScope, $scope
 
     }
 
-    //authenticate();
-
     $scope.credentials = {};
 
     $scope.login = function () {

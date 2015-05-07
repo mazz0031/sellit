@@ -36,8 +36,8 @@ class AccountFunctionalSpec extends GebSpec {
         when: 'REST call is made to Account Save (POST) api'
         def resp = doJsonPost('api/accounts', [username: "Joe Rockhead", email: "chief@bedrockfd.gov", password: "password1"])
 
-        then: 'Server returns a status of Created'
-        resp.status == 201
+        then: 'Server returns a status of OK'
+        resp.status == 200
 
         and: 'The saved Account has an id value'
         resp.data.id

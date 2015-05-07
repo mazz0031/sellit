@@ -1,18 +1,17 @@
 Functionality working in web UI:
     - Show active/completed listings
     - Show listing detail (click on hyperlink listing name)
-    - Login (can use username "Mark" and password "password1" in debug mode)
+    - Login (can use username "Mark" and password "password1" in debug mode -or- "Admin" and "password1" in debug or test)
     - Create account
     - Create listing
-
-    - Client side validation example in Create New Account
-
-Not yet done:
     - Create bid
     - Provide buyer/seller feedback
+    - Client side validation example in Create New Account
+
 
 
 No Angular tests written yet; only functional tests of REST controllers
+
 
 
 Notes:

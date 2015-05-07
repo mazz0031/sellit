@@ -47,8 +47,8 @@ class BootStrap {
         def listing1 = new Listing(name: "Television", description: "19-inch color CRT", startDate: new Date().copyWith(year: 2015, month: Calendar.MARCH, dayOfMonth: 10),
                 listingDays: 6, endDate: new Date().copyWith(year: 2015, month: Calendar.MARCH, dayOfMonth: 20), startingPrice: 52.00, deliverOption: "US Only", sellerAccount: account1, highBidAccount: account2, currentHighBid: "60.90")
         listing1.save(failOnError: true)
-        def listing2 = new Listing(name: "Radio", description: "boombox", startDate: new Date().copyWith(year: 2015, month: Calendar.FEBRUARY, dayOfMonth: 15),
-                listingDays: 5, endDate: new Date().copyWith(year: 2015, month: Calendar.APRIL, dayOfMonth: 30), startingPrice: 10.00, deliverOption: "US Only", sellerAccount: account2)
+        def listing2 = new Listing(name: "Radio", description: "boombox", startDate: new Date().copyWith(year: 2015, month: Calendar.MAY, dayOfMonth: 5),
+                listingDays: 10, endDate: new Date().copyWith(year: 2015, month: Calendar.MAY, dayOfMonth: 15), startingPrice: 10.00, deliverOption: "US Only", sellerAccount: account2)
         listing2.save(failOnError: true)
 
         def bid1 = new Bid(listedItem: listing1, biddingAccount: account2, bidAmount: 53.25)

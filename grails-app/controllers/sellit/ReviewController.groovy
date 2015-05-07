@@ -29,7 +29,8 @@ class ReviewController extends RestfulController<Review> {
     }, httpMethod = 'POST')
     def save() {
         def account = springSecurityService.currentUser as Account
-        def listing = Listing.findById(params.listingId)
+        def review = createResource()
+        def listing = review.listedItem
 
         if (listing.endDate >= new Date() || listing.highBidAccount == null) {
             response.sendError(401, "Reviews are only permitted for completed listings with a winning bidder")
@@ -40,7 +41,6 @@ class ReviewController extends RestfulController<Review> {
             def existingReview = Review.find {listedItem == listing && wasSeller == false}
             if (existingReview == null) {
                 //then this seller has not reviewed the buyer yet; save the review
-                def review = createResource();
                 review.listedItem = listing
                 review.reviewedAccount = listing.highBidAccount
                 review.wasSeller = false
@@ -60,7 +60,6 @@ class ReviewController extends RestfulController<Review> {
             def existingReview = Review.find {listedItem == listing && wasSeller == true}
             if (existingReview == null) {
                 //then this buyer has not reviewed the seller yet; save the review
-                def review = createResource();
                 review.listedItem = listing
                 review.reviewedAccount = listing.sellerAccount
                 review.wasSeller = true
