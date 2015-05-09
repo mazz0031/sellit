@@ -1,7 +1,7 @@
 eventCompileStart = { kind ->
-//    executeNpmInstall()
-//    executeBowerInstall()
-//    executeGruntTasks()
+    executeNpmInstall()
+    executeBowerInstall()
+    executeGruntTasks()
 }
 
 private void executeNpmInstall() {
